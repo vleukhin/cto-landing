@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
 //mask
-    $(".phone-mask").mask("9 (999) 999-99-99");
+    $(".phone-mask").mask("0 (000) 000-00-00", {placeholder: "_ (___) ___-__-__"});
 
 
     $('.regionCity').click(function (e) {
@@ -192,36 +192,9 @@ function CalcFieldChecker(e) {
 }
 
 function validPhone(phone) {
-    var pattern = /^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/;
+    var pattern = /^((8|\+7|7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/;
 
     return pattern.test(phone);
-}
-
-//Валидация телефонного номера
-//Текст в span(снизу)
-function validation(win, inputf) {
-    var novalid;
-    var invalidinputText = document.getElementById(win);
-    var phone_pattern = /^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/;
-    var phone = document.getElementById(inputf).value;
-
-    if (phone_pattern.test(phone) === false) {
-        var field = $('#' + inputf);
-        field.attr('title', 'Номер введен некорректно!');
-
-        if (!field.hasClass('tooltipstered')) {
-            field.tooltipster();
-        }
-
-        field.tooltipster('open');
-
-        return false;
-    }
-    else {
-        invalidinputText.innerHTML = "";
-        document.getElementById(inputf).style.boxShadow = "none";
-        return true;
-    }
 }
 
 $('#select_col_1 *').filter(':input').each(function () {

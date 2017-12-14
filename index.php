@@ -2063,11 +2063,12 @@ if (isset($_GET['utm_source'])) {
 <script src="libs/respond/respond.min.js"></script>
 <![endif]-->
 
-<script src="libs/jquery/jquery-2.1.3.min.js"></script>
-<script src="https://cdn.jsdelivr.net/g/bootstrap@3.3.6,jquery.ui@1.11.4,jquery.maskedinput@1.4.1(jquery.maskedinput.js)"></script>
+<script src="/libs/jquery/jquery-2.1.3.min.js"></script>
+<script src="/libs/jquery.mask/jquery.mask.js"></script>
+<script src="https://cdn.jsdelivr.net/g/bootstrap@3.3.6,jquery.ui@1.11.4"></script>
 <script src="http://jqueryvalidation.org/files/dist/jquery.validate.js"></script>
 <script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&amp;lang=ru-RU" type="text/javascript"></script>
-<script src="js/jquery.simslider.js"></script>
+<script src="/js/jquery.simslider.js"></script>
 
 <script type="text/javascript" src="/libs/tooltipster/js/tooltipster.bundle.min.js"></script>
 <script>
