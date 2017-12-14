@@ -48,7 +48,28 @@ $(document).ready(function () {
     $('#search-city').autocomplete({
         source: 'city.php',
         minLength: 2
-    })
+    });
+
+    $('[type="submit"]').on('click', function () {
+        var form = $(this).closest('form');
+        var field = form.find('[name=phone]');
+        var phone = field.val();
+
+        if (!validPhone(phone)) {
+            field.attr('title', 'Номер введен некорректно!');
+
+            if (!field.hasClass('tooltipstered')) {
+                field.tooltipster();
+            }
+
+            field.tooltipster('open');
+            field.focus();
+
+            return false;
+        }
+
+        return true;
+    });
 });
 
 function CheckBoxChecker() {
@@ -170,6 +191,12 @@ function CalcFieldChecker(e) {
 
 }
 
+function validPhone(phone) {
+    var pattern = /^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/;
+
+    return pattern.test(phone);
+}
+
 //Валидация телефонного номера
 //Текст в span(снизу)
 function validation(win, inputf) {
@@ -177,30 +204,23 @@ function validation(win, inputf) {
     var invalidinputText = document.getElementById(win);
     var phone_pattern = /^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/;
     var phone = document.getElementById(inputf).value;
-    if (phone_pattern.test(phone) === false) {
-        novalid = "*Номер введен некорректно!";
-        invalidinputText.innerHTML = novalid;
-        document.getElementById(inputf).style.boxShadow = "inset 0 0 5px 5px #fcd63f";
-    }
-    else {
-        invalidinputText.innerHTML = "";
-        document.getElementById(inputf).style.boxShadow = "none";
-    }
-}
 
-function validation2(win, inputf) {
-    var novalid;
-    var invalidinputText = document.getElementById(win);
-    var phone_pattern = /^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/;
-    var phone = document.getElementById(inputf).value;
-    if (phone_pattern.test(phone) == false) {
-        novalid = "*Номер введен некорректно!";
-        invalidinputText.innerHTML = novalid;
-        document.getElementById(inputf).style.boxShadow = "inset 0 0 5px 5px #fe475a";
+    if (phone_pattern.test(phone) === false) {
+        var field = $('#' + inputf);
+        field.attr('title', 'Номер введен некорректно!');
+
+        if (!field.hasClass('tooltipstered')) {
+            field.tooltipster();
+        }
+
+        field.tooltipster('open');
+
+        return false;
     }
     else {
         invalidinputText.innerHTML = "";
         document.getElementById(inputf).style.boxShadow = "none";
+        return true;
     }
 }
 

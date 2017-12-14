@@ -423,10 +423,13 @@ if (isset($_GET['utm_source'])) {
     <meta name="description" content="Оборудование для шиномонтажа, шиномонтажные станки, балансировочные станки, шиномонтажные полуавтоматы, балансировочные полуавтоматы, шиномонтажные стенды, балансировочные стенды. Легковые шиномонтажные станки, грузовые шиномонтажные станки.">
     <meta name="Keywords" content="Оборудование для шиномонтажа, шиномонтажные станки, балансировочные станки, шиномонтажные полуавтоматы, балансировочные полуавтоматы, шиномонтажные стенды, балансировочные стенды. Легковые шиномонтажные станки, грузовые шиномонтажные станки">
     <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="/libs/tooltipster/css/tooltipster.bundle.min.css" />
+
     <link href="https://cdn.jsdelivr.net/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="css/main.css"/>
-    <link rel="stylesheet" href="css/media.css"/>
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="/css/main.css"/>
+    <link rel="stylesheet" href="/css/media.css"/>
 
     <!--[if IE 9]>
     <link href="css/ie9.css" type="text/css" rel="stylesheet"/>
@@ -564,7 +567,7 @@ if (isset($_GET['utm_source'])) {
 
                     <div class="alert_on" id="phone_bottom"></div>
                     <div class="wrap-form-btn">
-                        <input class="form-button form-1-btn" type="submit" name="full_catalog" value="Получи полный каталог" onClick="validation('phone_bottom','inputf')">
+                        <input class="form-button form-1-btn" type="submit" name="full_catalog" value="Получи полный каталог">
 
                         <div class="compliance" style="font-size:9px; font-weight:300; margin-top:-5%;"><a href="#openModal3" target="_self" style="color:#D3D3D3; text-decoration: underline;">Нажимая кнопку, вы даете согласие на обработку персональных данных</a></div>
                     </div>
@@ -612,7 +615,7 @@ if (isset($_GET['utm_source'])) {
                             <div class="wrap-form-btn btn-position-right">
 
 
-                                <input class="form-button form-2-btn" type="submit" name="catalog" value="Получить каталог" onClick="validation('phone_bottom_2','inputf2')">
+                                <input class="form-button form-2-btn" type="submit" name="catalog" value="Получить каталог">
                             </div>
 
                             <input type="hidden" name="typsh" value="минитрактор">
@@ -652,7 +655,7 @@ if (isset($_GET['utm_source'])) {
                         <input class="input-text input-email input-string-form input-string-form-3" type="email" name="email" placeholder="Почта">
                         <div class="alert_on" id="phone_bottom_3"></div>
                         <div class="wrap-form-btn btn-position-center">
-                            <input class="form-button form-2-btn" type="submit" name="catalog" value="Получить каталог" onClick="validation('phone_bottom_3','inputf3')">
+                            <input class="form-button form-2-btn" type="submit" name="catalog" value="Получить каталог">
                         </div>
                         <input type="hidden" name="typsh" value="минитрактор">
                     </form>
@@ -689,7 +692,7 @@ if (isset($_GET['utm_source'])) {
                             <input class="input-text input-email input-string-form input-string-form-3" type="email" name="email" placeholder="Почта">
                             <div class="alert_on" id="phone_bottom_4"></div>
                             <div class="wrap-form-btn btn-position-right">
-                                <input class="form-button form-2-btn" type="submit" name="catalog" value="Получить каталог" onClick="validation('phone_bottom_4','inputf4')">
+                                <input class="form-button form-2-btn" type="submit" name="catalog" value="Получить каталог">
                             </div>
                             <input type="hidden" name="typsh" value="минитрактор">
                         </form>
@@ -724,7 +727,7 @@ if (isset($_GET['utm_source'])) {
                         <input class="input-text input-email input-string-form input-string-form-3" type="email" name="email" placeholder="Почта">
                         <div class="alert_on" id="phone_bottom_5"></div>
                         <div class="wrap-form-btn btn-position-center">
-                            <input class="form-button form-2-btn" type="submit" name="catalog" value="Получить каталог" onClick="validation('phone_bottom_5','inputf5')">
+                            <input class="form-button form-2-btn" type="submit" name="catalog" value="Получить каталог">
                         </div>
                         <input type="hidden" name="typsh" value="минитрактор">
                     </form>
@@ -852,7 +855,7 @@ if (isset($_GET['utm_source'])) {
                     </div>
                     <div class="alert_on alert_on_bg_white" id="phone_bottom_7"></div>
                     <div class="wrap-form-btn-price">
-                        <input class="form-button form-1-btn btn-price" type="submit" name="price" onClick="validation2('phone_bottom_7','inputf7')" value="получить прайс-лист">
+                        <input class="form-button form-1-btn btn-price" type="submit" name="price" value="получить прайс-лист">
                     </div>
                     <input type="hidden" name="typsh" value="минитрактор">
                 </form>
@@ -891,7 +894,7 @@ if (isset($_GET['utm_source'])) {
                         <div class="alert_on" id="phone_bottom_3"></div>
 
                         <div class="wrap-form-btn btn-position-center">
-                            <input class="form-button form-2-btn" type="submit" name="catalog" value="Получить" onClick="validation('phone_bottom_3','inputf3')">
+                            <input class="form-button form-2-btn" type="submit" name="catalog" value="Получить">
 
 
                         </div>
@@ -942,7 +945,7 @@ if (isset($_GET['utm_source'])) {
                         <div class="alert_on" id="phone_bottom_3"></div>
 
                         <div class="wrap-form-btn btn-position-center">
-                            <input class="form-button form-2-btn" type="submit" name="catalog" value="Получить" onClick="validation('phone_bottom_3','inputf3')">
+                            <input class="form-button form-2-btn" type="submit" name="catalog" value="Получить">
 
 
                         </div>
@@ -989,7 +992,7 @@ if (isset($_GET['utm_source'])) {
                         <div class="alert_on" id="phone_bottom_3"></div>
 
                         <div class="wrap-form-btn btn-position-center">
-                            <input class="form-button form-2-btn" type="submit" name="catalog" value="Получить" onClick="validation('phone_bottom_3','inputf3')">
+                            <input class="form-button form-2-btn" type="submit" name="catalog" value="Получить">
 
 
                         </div>
@@ -1036,7 +1039,7 @@ if (isset($_GET['utm_source'])) {
                         <div class="alert_on" id="phone_bottom_3"></div>
 
                         <div class="wrap-form-btn btn-position-center">
-                            <input class="form-button form-2-btn" type="submit" name="catalog" value="Получить" onClick="validation('phone_bottom_3','inputf3')">
+                            <input class="form-button form-2-btn" type="submit" name="catalog" value="Получить">
 
 
                         </div>
@@ -1082,7 +1085,7 @@ if (isset($_GET['utm_source'])) {
                         <div class="alert_on" id="phone_bottom_3"></div>
 
                         <div class="wrap-form-btn btn-position-center">
-                            <input class="form-button form-2-btn" type="submit" name="catalog" value="Получить" onClick="validation('phone_bottom_3','inputf3')">
+                            <input class="form-button form-2-btn" type="submit" name="catalog" value="Получить">
 
 
                         </div>
@@ -1143,63 +1146,6 @@ if (isset($_GET['utm_source'])) {
         </div>
     </div>
 </div>
-<!--	<div class="col-md-3 col-sm-3 col-xs-3 cat-pos cat-pos-1">
-        <a href="#openModal_2" onClick=CatNameChanger2("на&nbsp;Шиномонтажное&nbsp;оборудование")><img src="img/cat_pos_1.png" width="200" alt="">
-        <p>Шиномонтажное<br/>оборудование</p></a>
-    </div>
-    <div class="col-md-2 col-sm-2 col-xs-2 cat-pos cat-pos-2">
-        <a href="#openModal_2" onClick=CatNameChanger2("на&nbsp;Гидравлическое&nbsp;оборудование")><img src="img/cat_pos_2.png" width="264" alt="">
-        <p>Гидравлическое<br/>оборудование</p></a>
-    </div>
-    <div class="col-md-2 col-sm-2 col-xs-2 cat-pos cat-pos-3">
-        <a href="#openModal_2" onClick=CatNameChanger2("на&nbsp;Гаражное&nbsp;оборудование")><img src="img/cat_pos_3.png" width="206" alt="">
-        <p>Гаражное<br/>оборудование</p></a>
-    </div>
-    <div class="col-md-2 col-sm-2 col-xs-2 cat-pos cat-pos-4">
-        <a href="#openModal_2" onClick=CatNameChanger2("на&nbsp;Диагностическое&nbsp;оборудование")><img src="img/cat_pos_4.png" width="236" alt="">
-        <p>Диагностическое<br/>оборудование</p></a>
-    </div>
-    <div class="col-md-3 col-sm-3 col-xs-3 cat-pos cat-pos-5">
-        <a href="#openModal_2" onClick=CatNameChanger2("для&nbsp;кузовного&nbsp;ремонта")><img src="img/cat_pos_5.png" width="280" alt="">
-        <p>Для кузовного<br/>ремонта</p></a>
-    </div>
-</div>
-<div class="row cat-pos-string catalog-position">
-    <div class="col-md-3 col-sm-3 col-xs-3 cat-pos cat-pos-6">
-        <a href="#openModal_2" onClick=CatNameChanger2("на&nbsp;Окрасочное&nbsp;оборудование")><img src="img/cat_pos_6.png" width="354" alt="">
-        <p>Окрасочное<br/>оборудование</p></a>
-    </div>
-    <div class="col-md-2 col-sm-2 col-xs-2 cat-pos cat-pos-7">
-        <a href="#openModal_2" onClick=CatNameChanger2("на&nbsp;Инструмент&nbsp;и&nbsp;мебель")><img src="img/cat_pos_7.png" width="246" alt="">
-        <p>Инструмент<br/>и мебель</p></a>
-    </div>
-    <div class="col-md-2 col-sm-2 col-xs-2 cat-pos cat-pos-8">
-        <a href="#openModal_2" onClick=CatNameChanger2("на&nbsp;Стенды&nbsp;развал-схождения")><img src="img/cat_pos_8.png" width="236" alt="">
-        <p>Стенды<br/>&quot;развал-схождения&quot;</p></a>
-    </div>
-    <div class="col-md-2 col-sm-2 col-xs-2 cat-pos cat-pos-9">
-        <a href="#openModal_2" onClick=CatNameChanger2("на&nbsp;Компрессоры")><img src="img/cat_pos_9.png" width="272" alt="">
-        <p>Компрессоры</p></a>
-    </div>
-    <div class="col-md-3 col-sm-3 col-xs-3 cat-pos cat-pos-10">
-        <a href="#openModal_2" onClick=CatNameChanger2("на&nbsp;Грузовое&nbsp;оборудование")><img src="img/cat_pos_10.png" width="256" alt="">
-        <p>Грузовое<br/>оборудование</p></a>
-    </div>
-</div>
-<div class="row cat-pos-string cat-pos-string-2">
-    <div class="col-md-5 col-sm-5 col-xs-5 cat-pos cat-pos-11">
-        <a href="#openModal_2" onClick=CatNameChanger2("на&nbsp;Сварочное&nbsp;оборудование")><img src="img/cat_pos_11.png" width="186" alt="">
-        <p>Сварочное<br/>оборудование</p></a>
-    </div>
-    <div class="col-md-2 col-sm-2 col-xs-2 cat-pos cat-pos-12">
-        <a href="#openModal_2" onClick=CatNameChanger2("на&nbsp;Моечное&nbsp;оборудование")><img src="img/cat_pos_12.png" width="248" alt="">
-        <p>Моечное<br/>оборудование</p></a>
-    </div>
-    <div class="col-md-5 col-sm-5 col-xs-5 cat-pos cat-pos-13">
-        <a href="#openModal_2" onClick=CatNameChanger2("на&nbsp;Электростаниции")><img src="img/cat_pos_13.png" width="278" alt=""><p>Электростаниции</p></a>
-    </div>
-</div>-->
-
 
 <div class="wrap-manager-section">
     <div class="container">
@@ -1280,7 +1226,7 @@ if (isset($_GET['utm_source'])) {
                         </div>
                         <div class="alert_on alert_on_bg_white" id="phone_bottom_9"></div>
                         <div class="wrap-form-btn-call">
-                            <input class="form-button form-1-btn btn-color-2 btn-call" onClick="validation2('phone_bottom_9','inputf9')" type="submit" name="call" value="перезвонить">
+                            <input class="form-button form-1-btn btn-color-2 btn-call" type="submit" name="call" value="перезвонить">
                         </div>
                         <div class="call-form-small-text" style="bottom:13%;">
                             за 5 минут
@@ -1335,7 +1281,7 @@ if (isset($_GET['utm_source'])) {
                         <input class="input-text input-phone-crd input-price input-credit phone-mask" id="inputf10" maxlength="18" type="text" name="phone" placeholder="Телефон*" required onClick="moveCaretToStart(this)">
                     </div>
                     <div class="wrap-form-btn-credit">
-                        <input class="form-button form-1-btn btn-credit" type="submit" name="price" value="Купить в кредит" onClick="validation2('phone_bottom_10','inputf10')">
+                        <input class="form-button form-1-btn btn-credit" type="submit" name="price" value="Купить в кредит">
                     </div>
                     <div class="alert_on" id="phone_bottom_10"></div>
                     <input type="hidden" name="typsh" value="минитрактор">
@@ -1464,7 +1410,7 @@ if (isset($_GET['utm_source'])) {
                     </div>
                     <div class="alert_on" id="phone_bottom_11"></div>
                     <div class="wrap-form-btn-price">
-                        <input class="form-button form-1-btn btn-price-2" type="submit" name="price" onClick="validation2('phone_bottom_11','inputf11')" value="получить прайс-лист">
+                        <input class="form-button form-1-btn btn-price-2" type="submit" name="price" value="получить прайс-лист">
                     </div>
                     <div class="compliance" style="font-size:9px; font-weight:300;"><a href="#openModal3" target="_self" style="color:#D3D3D3; text-decoration: underline;">Нажимая кнопку, вы даете согласие на обработку персональных данных</a></div>
                 </form>
@@ -1488,7 +1434,7 @@ if (isset($_GET['utm_source'])) {
                         <input class="input-text input-phone-crd input-price input-credit phone-mask" id="inputf10" maxlength="18" type="text" name="phone" placeholder="Телефон*" required onClick="moveCaretToStart(this)">
                     </div>
                     <div class="wrap-form-btn-credit">
-                        <input class="form-button form-1-btn btn-credit" type="submit" name="price" value="Получить" onClick="validation2('phone_bottom_10','inputf10')">
+                        <input class="form-button form-1-btn btn-credit" type="submit" name="price" value="Получить">
                     </div>
                     <div class="alert_on" id="phone_bottom_10"></div>
                     <input type="hidden" name="typsh" value="минитрактор">
@@ -1560,7 +1506,7 @@ if (isset($_GET['utm_source'])) {
                 </div>
                 <div class="alert_on alert_on_modal" id="phone_bottom_12"></div>
                 <div class="wrapper-button">
-                    <input class="form-button form-1-btn btn-color-2 btn-modal" onClick="validation2('phone_bottom_12','inputf12')" type="submit" name="submit" value="Перезвонить мне">
+                    <input class="form-button form-1-btn btn-color-2 btn-modal" type="submit" name="submit" value="Перезвонить мне">
                     <div class="compliance" style="margin-top:-5%; font-size:9px;"><a href="#openModal3" target="_self" style="color:#D3D3D3;">Нажимая кнопку, вы даете согласие на обработку персональных данных</a></div>
                 </div>
                 <input type="hidden" name="typsh" value="минитрактор">
@@ -1586,7 +1532,7 @@ if (isset($_GET['utm_source'])) {
                 </div>
                 <div class="alert_on alert_on_modal" id="phone_bottom_13"></div>
                 <div class="wrapper-button">
-                    <input class="form-button form-1-btn btn-color-2 btn-modal" onClick="validation2('phone_bottom_13','inputf13')" type="submit" name="submit" value="Скачать каталог">
+                    <input class="form-button form-1-btn btn-color-2 btn-modal" type="submit" name="submit" value="Скачать каталог">
                     <div class="compliance" style="margin-top:-5%;font-size:9px;"><a href="#openModal3" target="_self" style="color:#D3D3D3;">Нажимая кнопку, вы даете согласие на обработку персональных данных</a></div>
                 </div>
 
@@ -1902,7 +1848,7 @@ if (isset($_GET['utm_source'])) {
                 </div>
                 <div class="alert_on alert_on_modal" id="phone_bottom_14"></div>
                 <div class="wrapper-button">
-                    <input class="form-button form-1-btn btn-color-2 btn-modal" onClick="validation2('phone_bottom_14','inputf14')" type="submit" name="submit" value="Скачать каталог">
+                    <input class="form-button form-1-btn btn-color-2 btn-modal" type="submit" name="submit" value="Скачать каталог">
                     <div class="compliance" style="margin-top:-5%;font-size:9px;"><a href="#openModal3" target="_self" style="color:#D3D3D3;">Нажимая кнопку, вы даете согласие на обработку персональных данных</a></div>
                 </div>
                 <input type="hidden" name="typsh" value="минитрактор">
@@ -1928,7 +1874,7 @@ if (isset($_GET['utm_source'])) {
                 </div>
                 <div class="alert_on alert_on_modal" id="phone_bottom_15"></div>
                 <div class="wrapper-button">
-                    <input class="form-button form-1-btn btn-color-2 btn-modal" onClick="validation2('phone_bottom_15','inputf15')" type="submit" name="submit" value="Перезвонить мне">
+                    <input class="form-button form-1-btn btn-color-2 btn-modal" type="submit" name="submit" value="Перезвонить мне">
                 </div>
                 <input type="hidden" name="typsh" value="минитрактор">
             </form>
@@ -1952,7 +1898,7 @@ if (isset($_GET['utm_source'])) {
                 </div>
                 <div class="alert_on alert_on_modal" id="phone_bottom_16"></div>
                 <div class="wrapper-button">
-                    <input class="form-button form-1-btn btn-color-2 btn-modal" onClick="validation2('phone_bottom_16','inputf16')" type="submit" name="submit" value="Перезвонить мне">
+                    <input class="form-button form-1-btn btn-color-2 btn-modal" type="submit" name="submit" value="Перезвонить мне">
                 </div>
                 <input type="hidden" name="typsh" value="минитрактор">
             </form>
@@ -1976,7 +1922,7 @@ if (isset($_GET['utm_source'])) {
                 </div>
                 <div class="alert_on alert_on_modal" id="phone_bottom_17"></div>
                 <div class="wrapper-button">
-                    <input class="form-button form-1-btn btn-color-2 btn-modal" onClick="validation2('phone_bottom_17','inputf17')" type="submit" name="submit" value="Перезвонить мне">
+                    <input class="form-button form-1-btn btn-color-2 btn-modal" type="submit" name="submit" value="Перезвонить мне">
                 </div>
                 <input type="hidden" name="typsh" value="минитрактор">
             </form>
@@ -2000,7 +1946,7 @@ if (isset($_GET['utm_source'])) {
                 </div>
                 <div class="alert_on alert_on_modal" id="phone_bottom_18"></div>
                 <div class="wrapper-button">
-                    <input class="form-button form-1-btn btn-color-2 btn-modal" onClick="validation2('phone_bottom_18','inputf18')" type="submit" name="submit" value="Перезвонить мне">
+                    <input class="form-button form-1-btn btn-color-2 btn-modal" type="submit" name="submit" value="Перезвонить мне">
                 </div>
                 <input type="hidden" name="typsh" value="минитрактор">
             </form>
@@ -2024,7 +1970,7 @@ if (isset($_GET['utm_source'])) {
                 </div>
                 <div class="alert_on alert_on_modal" id="phone_bottom_19"></div>
                 <div class="wrapper-button">
-                    <input class="form-button form-1-btn btn-color-2 btn-modal" onClick="validation2('phone_bottom_19','inputf19')" type="submit" name="submit" value="Перезвонить мне">
+                    <input class="form-button form-1-btn btn-color-2 btn-modal" type="submit" name="submit" value="Перезвонить мне">
                 </div>
                 <input type="hidden" name="typsh" value="минитрактор">
             </form>
@@ -2048,7 +1994,7 @@ if (isset($_GET['utm_source'])) {
                 </div>
                 <div class="alert_on alert_on_modal" id="phone_bottom_20"></div>
                 <div class="wrapper-button">
-                    <input class="form-button form-1-btn btn-color-2 btn-modal" onClick="validation2('phone_bottom_20','inputf20')" type="submit" name="submit" value="Перезвонить мне">
+                    <input class="form-button form-1-btn btn-color-2 btn-modal" type="submit" name="submit" value="Перезвонить мне">
                     <div class="compliance" style="margin-top:-5%;font-size:9px;"><a href="#openModal3" target="_self" style="color:#D3D3D3;">Нажимая кнопку, вы даете согласие на обработку персональных данных</a></div>
                 </div>
                 <input type="hidden" name="typsh" value="минитрактор">
@@ -2122,6 +2068,8 @@ if (isset($_GET['utm_source'])) {
 <script src="http://jqueryvalidation.org/files/dist/jquery.validate.js"></script>
 <script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&amp;lang=ru-RU" type="text/javascript"></script>
 <script src="js/jquery.simslider.js"></script>
+
+<script type="text/javascript" src="/libs/tooltipster/js/tooltipster.bundle.min.js"></script>
 <script>
     jQuery(function ($) {
         $('.block-1 .sliderBox').SimSlider({
