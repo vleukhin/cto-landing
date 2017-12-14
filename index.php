@@ -559,7 +559,7 @@ if (isset($_GET['utm_source'])) {
                         <input class="input-text input-name" type="text" name="name" placeholder="Имя">
                     </div>
                     <div class="wrap-input-telephone">
-                        <input class="input-text input-phone phone-mask" id="inputf" type="tel" name="phone" placeholder="Телефон*" maxlength="18" required onClick="moveCaretToStart(this)">
+                        <input class="input-text input-phone phone-mask" id="inputf" type="tel" name="phone" placeholder="Телефон*" maxlength="18" required">
                     </div>
                     <div class="wrap-input-email">
                         <input class="input-text input-email" type="email" name="email" placeholder="Почта">
@@ -608,7 +608,7 @@ if (isset($_GET['utm_source'])) {
                             <div>
                                 <input type="hidden" name="subject" value="Минитрактора. Оставьте ваши имя и телефон, чтобы получить каталог">
                                 <input class="input-text input-name input-string-form string-form-name" type="text" name="name" placeholder="Имя">
-                                <input class="input-text input-phone input-string-form phone-mask" id="inputf2" maxlength="18" type="text" name="phone" placeholder="Телефон*" required onClick="moveCaretToStart(this)">
+                                <input class="input-text input-phone input-string-form phone-mask" id="inputf2" maxlength="18" type="text" name="phone" placeholder="Телефон*" required">
                                 <input class="input-text input-email input-string-form input-string-form-3" type="email" name="email" placeholder="Почта">
                             </div>
                             <div class="alert_on" id="phone_bottom_2"></div>
@@ -651,7 +651,7 @@ if (isset($_GET['utm_source'])) {
                         <p>оставь свое имя и телефон, чтобы получить каталог</p>
                         <input type="hidden" name="subject" value="Минитрактора. Оставьте ваши имя и телефон, чтобы получить каталог">
                         <input class="input-text input-name input-string-form-left" type="text" name="name" placeholder="Имя">
-                        <input class="input-text input-phone input-string-form phone-mask" id="inputf3" maxlength="18" type="text" name="phone" placeholder="Телефон*" required onClick="moveCaretToStart(this)">
+                        <input class="input-text input-phone input-string-form phone-mask"  maxlength="18" type="text" name="phone" placeholder="Телефон*" required">
                         <input class="input-text input-email input-string-form input-string-form-3" type="email" name="email" placeholder="Почта">
                         <div class="alert_on" id="phone_bottom_3"></div>
                         <div class="wrap-form-btn btn-position-center">
@@ -688,7 +688,7 @@ if (isset($_GET['utm_source'])) {
                             <p>оставь свое имя и телефон, чтобы получить каталог</p>
                             <input type="hidden" name="subject" value="Минитрактора. Оставьте ваши имя и телефон, чтобы получить каталог">
                             <input class="input-text input-name input-string-form string-form-name" type="text" name="name" placeholder="Имя">
-                            <input class="input-text input-phone input-string-form phone-mask" type="text" id="inputf4" maxlength="16" name="phone" placeholder="Телефон*" required onClick="moveCaretToStart(this)">
+                            <input class="input-text input-phone input-string-form phone-mask" type="text" id="inputf4" maxlength="16" name="phone" placeholder="Телефон*" required">
                             <input class="input-text input-email input-string-form input-string-form-3" type="email" name="email" placeholder="Почта">
                             <div class="alert_on" id="phone_bottom_4"></div>
                             <div class="wrap-form-btn btn-position-right">
@@ -723,7 +723,7 @@ if (isset($_GET['utm_source'])) {
                         <p>оставь свое имя и телефон, чтобы получить каталог</p>
                         <input type="hidden" name="subject" value="Минитрактора. Оставьте ваши имя и телефон, чтобы получить каталог">
                         <input class="input-text input-name input-string-form-left" type="text" name="name" placeholder="Имя">
-                        <input class="input-text input-phone input-string-form phone-mask" id="inputf5" maxlength="18" type="text" name="phone" placeholder="Телефон*" required onClick="moveCaretToStart(this)">
+                        <input class="input-text input-phone input-string-form phone-mask" id="inputf5" maxlength="18" type="text" name="phone" placeholder="Телефон*" required">
                         <input class="input-text input-email input-string-form input-string-form-3" type="email" name="email" placeholder="Почта">
                         <div class="alert_on" id="phone_bottom_5"></div>
                         <div class="wrap-form-btn btn-position-center">
@@ -848,7 +848,7 @@ if (isset($_GET['utm_source'])) {
                         <input class="input-text input-name input-price" type="text" name="name" placeholder="Имя">
                     </div>
                     <div class="wrap-input-telephone-price">
-                        <input class="input-text input-phone input-price phone-mask" id="inputf7" maxlength="18" type="text" name="phone" placeholder="Телефон*" required onClick="moveCaretToStart(this)">
+                        <input class="input-text input-phone input-price phone-mask" id="inputf7" maxlength="18" type="text" name="phone" placeholder="Телефон*" required">
                     </div>
                     <div class="wrap-input-email-price">
                         <input class="input-text input-email input-price" type="email" name="email" placeholder="Почта">
@@ -887,7 +887,7 @@ if (isset($_GET['utm_source'])) {
                         <p>оставь свое имя и телефон, чтобы получить комплект по цене <span style="font-size:35px;">673 900 </span>р.</p>
                         <input type="hidden" name="subject" value="минитрактор">
                         <input class="input-text input-name input-string-form-left" type="text" name="name" placeholder="Имя">
-                        <input class="input-text input-phone input-string-form phone-mask" id="inputf3" maxlength="18" type="text" name="phone" placeholder="Телефон*" required onClick="moveCaretToStart(this)">
+                        <input class="input-text input-phone input-string-form phone-mask"  maxlength="18" type="text" name="phone" placeholder="Телефон*" required">
                         <input class="input-text input-email input-string-form input-string-form-3" type="email" name="email" placeholder="Почта">
                         <div class="alert_on" id="phone_bottom_3"></div>
                         <span style="font-size:19px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:5%;">Ваша выгода</span><strong><span style="font-size:35px; color:yellow;">15 500 р.</span></strong><br>
@@ -938,7 +938,7 @@ if (isset($_GET['utm_source'])) {
                         <p>оставь свое имя и телефон, чтобы получить комплект по цене <span style="font-size:35px;">167 900 </span>р.</p>
                         <input type="hidden" name="subject" value="минитрактор">
                         <input class="input-text input-name input-string-form-left" type="text" name="name" placeholder="Имя">
-                        <input class="input-text input-phone input-string-form phone-mask" id="inputf3" maxlength="18" type="text" name="phone" placeholder="Телефон*" required onClick="moveCaretToStart(this)">
+                        <input class="input-text input-phone input-string-form phone-mask"  maxlength="18" type="text" name="phone" placeholder="Телефон*" required">
                         <input class="input-text input-email input-string-form input-string-form-3" type="email" name="email" placeholder="Почта">
                         <div class="alert_on" id="phone_bottom_3"></div>
                         <span style="font-size:19px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:5%;">Ваша выгода</span><strong><span style="font-size:35px; color:yellow;"> 6 500 р.</span></strong><br>
@@ -986,7 +986,7 @@ if (isset($_GET['utm_source'])) {
                         <p>оставь свое имя и телефон, чтобы получить комплект по цене <span style="font-size:35px;">295 900 </span>р.</p>
                         <input type="hidden" name="subject" value="Минитрактора. Оставьте ваши имя и телефон, чтобы получить каталог">
                         <input class="input-text input-name input-string-form-left" type="text" name="name" placeholder="Имя">
-                        <input class="input-text input-phone input-string-form phone-mask" id="inputf3" maxlength="18" type="text" name="phone" placeholder="Телефон*" required onClick="moveCaretToStart(this)">
+                        <input class="input-text input-phone input-string-form phone-mask"  maxlength="18" type="text" name="phone" placeholder="Телефон*" required">
                         <input class="input-text input-email input-string-form input-string-form-3" type="email" name="email" placeholder="Почта">
                         <span style="font-size:19px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:5%;">Ваша выгода</span><span style="font-size:35px; color:yellow;"><strong> 9 400 р.</strong></span><br>
                         <div class="alert_on" id="phone_bottom_3"></div>
@@ -1033,7 +1033,7 @@ if (isset($_GET['utm_source'])) {
                         <p>оставь свое имя и телефон, чтобы получить комплект по цене <span style="font-size:35px;">405 900 </span>р.</p>
                         <input type="hidden" name="subject" value="Минитрактора. Оставьте ваши имя и телефон, чтобы получить каталог">
                         <input class="input-text input-name input-string-form-left" type="text" name="name" placeholder="Имя">
-                        <input class="input-text input-phone input-string-form phone-mask" id="inputf3" maxlength="18" type="text" name="phone" placeholder="Телефон*" required onClick="moveCaretToStart(this)">
+                        <input class="input-text input-phone input-string-form phone-mask"  maxlength="18" type="text" name="phone" placeholder="Телефон*" required">
                         <input class="input-text input-email input-string-form input-string-form-3" type="email" name="email" placeholder="Почта">
                         <span style="font-size:19px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:5%;">Ваша выгода</span><span style="font-size:35px; color:yellow;"><strong> 13 800 р.</strong></span><br>
                         <div class="alert_on" id="phone_bottom_3"></div>
@@ -1079,7 +1079,7 @@ if (isset($_GET['utm_source'])) {
                         <p>оставь свое имя и телефон, чтобы получить комплект по цене <span style="font-size:35px;"> 821 900 </span>р.</p>
                         <input type="hidden" name="subject" value="Минитрактора. Оставьте ваши имя и телефон, чтобы получить каталог">
                         <input class="input-text input-name input-string-form-left" type="text" name="name" placeholder="Имя">
-                        <input class="input-text input-phone input-string-form phone-mask" id="inputf3" maxlength="18" type="text" name="phone" placeholder="Телефон*" required onClick="moveCaretToStart(this)">
+                        <input class="input-text input-phone input-string-form phone-mask"  maxlength="18" type="text" name="phone" placeholder="Телефон*" required">
                         <input class="input-text input-email input-string-form input-string-form-3" type="email" name="email" placeholder="Почта">
                         <span style="font-size:19px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:5%;">Ваша выгода</span><span style="font-size:35px; color:yellow;"><strong> 25 000 р.</strong></span><br>
                         <div class="alert_on" id="phone_bottom_3"></div>
@@ -1222,7 +1222,7 @@ if (isset($_GET['utm_source'])) {
                             <input class="input-text input-name input-call" type="text" name="name" placeholder="Имя">
                         </div>
                         <div class="wrap-input-telephone-call">
-                            <input class="input-text input-phone input-call phone-mask" id="inputf9" maxlength="18" type="text" name="phone" placeholder="Телефон*" required onClick="moveCaretToStart(this)">
+                            <input class="input-text input-phone input-call phone-mask" id="inputf9" maxlength="18" type="text" name="phone" placeholder="Телефон*" required">
                         </div>
                         <div class="alert_on alert_on_bg_white" id="phone_bottom_9"></div>
                         <div class="wrap-form-btn-call">
@@ -1278,7 +1278,7 @@ if (isset($_GET['utm_source'])) {
                         <input class="input-text input-name-crd input-price input-credit" type="text" name="name" placeholder="Имя">
                     </div>
                     <div class="wrap-input-telephone-credit">
-                        <input class="input-text input-phone-crd input-price input-credit phone-mask" id="inputf10" maxlength="18" type="text" name="phone" placeholder="Телефон*" required onClick="moveCaretToStart(this)">
+                        <input class="input-text input-phone-crd input-price input-credit phone-mask" id="inputf10" maxlength="18" type="text" name="phone" placeholder="Телефон*" required">
                     </div>
                     <div class="wrap-form-btn-credit">
                         <input class="form-button form-1-btn btn-credit" type="submit" name="price" value="Купить в кредит">
@@ -1403,7 +1403,7 @@ if (isset($_GET['utm_source'])) {
                         <input class="input-text input-name input-price" type="text" name="name" placeholder="Имя">
                     </div>
                     <div class="wrap-input-telephone-price">
-                        <input class="input-text input-phone input-price phone-mask" id="inputf11" maxlength="18" type="text" name="phone" placeholder="Телефон*" required onClick="moveCaretToStart(this)">
+                        <input class="input-text input-phone input-price phone-mask" id="inputf11" maxlength="18" type="text" name="phone" placeholder="Телефон*" required">
                     </div>
                     <div class="wrap-input-email-price">
                         <input class="input-text input-email input-price" type="email" name="email" placeholder="Почта">
@@ -1431,7 +1431,7 @@ if (isset($_GET['utm_source'])) {
                         <input class="input-text input-name-crd input-price input-credit" type="text" name="name" placeholder="Имя">
                     </div>
                     <div class="wrap-input-telephone-credit">
-                        <input class="input-text input-phone-crd input-price input-credit phone-mask" id="inputf10" maxlength="18" type="text" name="phone" placeholder="Телефон*" required onClick="moveCaretToStart(this)">
+                        <input class="input-text input-phone-crd input-price input-credit phone-mask" id="inputf10" maxlength="18" type="text" name="phone" placeholder="Телефон*" required">
                     </div>
                     <div class="wrap-form-btn-credit">
                         <input class="form-button form-1-btn btn-credit" type="submit" name="price" value="Получить">
@@ -1502,7 +1502,7 @@ if (isset($_GET['utm_source'])) {
                     <input class="input-text input-modal" type="text" name="name" placeholder="Ваше имя">
                 </div>
                 <div class="wrap-input-telephone-price">
-                    <input class="input-text input-modal phone-mask" id="inputf12" maxlength="18" type="text" name="phone" placeholder="Ваш телефон*" required onClick="moveCaretToStart(this)">
+                    <input class="input-text input-modal phone-mask" id="inputf12" maxlength="18" type="text" name="phone" placeholder="Ваш телефон*" required">
                 </div>
                 <div class="alert_on alert_on_modal" id="phone_bottom_12"></div>
                 <div class="wrapper-button">
@@ -1528,7 +1528,7 @@ if (isset($_GET['utm_source'])) {
                     <input class="input-text input-modal" type="text" name="name" placeholder="Ваше имя">
                 </div>
                 <div class="wrap-input-telephone-price">
-                    <input class="input-text input-modal phone-mask" id="inputf13" maxlength="18" type="text" name="phone" placeholder="Ваш телефон" required onClick="moveCaretToStart(this)">
+                    <input class="input-text input-modal phone-mask" id="inputf13" maxlength="18" type="text" name="phone" placeholder="Ваш телефон" required">
                 </div>
                 <div class="alert_on alert_on_modal" id="phone_bottom_13"></div>
                 <div class="wrapper-button">
@@ -1844,7 +1844,7 @@ if (isset($_GET['utm_source'])) {
                     <input class="input-text input-modal" type="text" name="name" placeholder="Ваше имя">
                 </div>
                 <div class="wrap-input-telephone-price">
-                    <input class="input-text input-modal phone-mask" id="inputf14" maxlength="18" type="text" name="phone" placeholder="Ваш телефон" required onClick="moveCaretToStart(this)">
+                    <input class="input-text input-modal phone-mask" id="inputf14" maxlength="18" type="text" name="phone" placeholder="Ваш телефон" required">
                 </div>
                 <div class="alert_on alert_on_modal" id="phone_bottom_14"></div>
                 <div class="wrapper-button">
@@ -1870,7 +1870,7 @@ if (isset($_GET['utm_source'])) {
                     <input class="input-text input-modal" type="text" name="name" placeholder="Ваше имя">
                 </div>
                 <div class="wrap-input-telephone-price">
-                    <input class="input-text input-modal phone-mask" id="inputf15" maxlength="18" type="text" name="phone" placeholder="Ваш телефон*" required onClick="moveCaretToStart(this)">
+                    <input class="input-text input-modal phone-mask" id="inputf15" maxlength="18" type="text" name="phone" placeholder="Ваш телефон*" required">
                 </div>
                 <div class="alert_on alert_on_modal" id="phone_bottom_15"></div>
                 <div class="wrapper-button">
@@ -1894,7 +1894,7 @@ if (isset($_GET['utm_source'])) {
                     <input class="input-text input-modal" type="text" name="name" placeholder="Ваше имя">
                 </div>
                 <div class="wrap-input-telephone-price">
-                    <input class="input-text input-modal phone-mask" id="inputf16" maxlength="18" type="text" name="phone" placeholder="Ваш телефон*" required onClick="moveCaretToStart(this)">
+                    <input class="input-text input-modal phone-mask" id="inputf16" maxlength="18" type="text" name="phone" placeholder="Ваш телефон*" required">
                 </div>
                 <div class="alert_on alert_on_modal" id="phone_bottom_16"></div>
                 <div class="wrapper-button">
@@ -1918,7 +1918,7 @@ if (isset($_GET['utm_source'])) {
                     <input class="input-text input-modal" type="text" name="name" placeholder="Ваше имя">
                 </div>
                 <div class="wrap-input-telephone-price">
-                    <input class="input-text input-modal phone-mask" id="inputf17" maxlength="18" type="text" name="phone" placeholder="Ваш телефон*" required onClick="moveCaretToStart(this)">
+                    <input class="input-text input-modal phone-mask" id="inputf17" maxlength="18" type="text" name="phone" placeholder="Ваш телефон*" required">
                 </div>
                 <div class="alert_on alert_on_modal" id="phone_bottom_17"></div>
                 <div class="wrapper-button">
@@ -1942,7 +1942,7 @@ if (isset($_GET['utm_source'])) {
                     <input class="input-text input-modal" type="text" name="name" placeholder="Ваше имя">
                 </div>
                 <div class="wrap-input-telephone-price">
-                    <input class="input-text input-modal phone-mask" id="inputf18" maxlength="18" type="text" name="phone" placeholder="Ваш телефон*" required onClick="moveCaretToStart(this)">
+                    <input class="input-text input-modal phone-mask" id="inputf18" maxlength="18" type="text" name="phone" placeholder="Ваш телефон*" required">
                 </div>
                 <div class="alert_on alert_on_modal" id="phone_bottom_18"></div>
                 <div class="wrapper-button">
@@ -1966,7 +1966,7 @@ if (isset($_GET['utm_source'])) {
                     <input class="input-text input-modal" type="text" name="name" placeholder="Ваше имя">
                 </div>
                 <div class="wrap-input-telephone-price">
-                    <input class="input-text input-modal phone-mask" id="inputf19" maxlength="18" type="text" name="phone" placeholder="Ваш телефон*" required onClick="moveCaretToStart(this)">
+                    <input class="input-text input-modal phone-mask" id="inputf19" maxlength="18" type="text" name="phone" placeholder="Ваш телефон*" required">
                 </div>
                 <div class="alert_on alert_on_modal" id="phone_bottom_19"></div>
                 <div class="wrapper-button">
@@ -1990,7 +1990,7 @@ if (isset($_GET['utm_source'])) {
                     <input class="input-text input-modal" type="text" name="name" placeholder="Ваше имя">
                 </div>
                 <div class="wrap-input-telephone-price">
-                    <input class="input-text input-modal phone-mask" id="inputf20" maxlength="18" type="text" name="phone" placeholder="Ваш телефон*" required onClick="moveCaretToStart(this)">
+                    <input class="input-text input-modal phone-mask" id="inputf20" maxlength="18" type="text" name="phone" placeholder="Ваш телефон*" required">
                 </div>
                 <div class="alert_on alert_on_modal" id="phone_bottom_20"></div>
                 <div class="wrapper-button">
