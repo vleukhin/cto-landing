@@ -2134,15 +2134,6 @@ if (isset($_GET['utm_source'])) {
     })(window, document, 'script', 'cloud.roistat.com', '7bf5be8735d9e917716694083ddc7adb');
 </script>
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
-<!-- Отслеживаем лиды через ловца лидовr -->
-<script>
-    window.onRoistatAllModulesLoaded = function () {
-        window.roistat.leadHunter.onAfterSubmit = function (leadData) {
-            yaCounter44830108.reachGoal('leadhunter');
-        }
-    };
-</script>
-<!-- /Отслеживаем лиды через ловца лидовr -->
 
 
 <!— Facebook Pixel Code —>
