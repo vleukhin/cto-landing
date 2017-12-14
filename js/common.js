@@ -14,7 +14,6 @@ $(document).ready(function () {
     $('.search-city-submit').click(function (e) {
         e.preventDefault();
 
-
         if ($('#search-city').val() == '') {
             $('#search-city').focus();
             return false;
@@ -35,9 +34,7 @@ $(document).ready(function () {
             }
 
         }
-
-    })
-
+    });
 
     //ya.city
     ymaps.ready(init);
@@ -52,13 +49,12 @@ $(document).ready(function () {
         source: 'city.php',
         minLength: 2
     })
-
-
 });
 
 function CheckBoxChecker() {
     var tireCheckBox = document.getElementById("TireCheckBox");
-    var firstBoxItems = document.getElementsByClassName("firstBoxItems")
+    var firstBoxItems = document.getElementsByClassName("firstBoxItems");
+
     if (tireCheckBox.checked == true) {
         for (var i = 0; i < firstBoxItems.length; i++) {
             firstBoxItems[i].disabled = true;
@@ -212,7 +208,6 @@ $('#select_col_1 *').filter(':input').each(function () {
     if ($(this).attr('disabled') == "disabled") {
         $(this).wrap("<span id='scol' class='inactive'></span>");
     }
-    ;
 });
 
 
@@ -220,7 +215,6 @@ $('#select_col_2 *').filter(':input').each(function () {
     if ($(this).attr('disabled') == "disabled") {
         $(this).wrap("<span id='scol' class='inactive'></span>");
     }
-    ;
 });
 
 
@@ -228,7 +222,6 @@ $('#select_col_3 *').filter(':input').each(function () {
     if ($(this).attr('disabled') == "disabled") {
         $(this).wrap("<span id='bcol' class='inactive'></span>");
     }
-    ;
 });
 
 
@@ -236,7 +229,6 @@ $('#select_col_4 *').filter(':input').each(function () {
     if ($(this).attr('disabled') == "disabled") {
         $(this).wrap("<span id='bcol' class='inactive'></span>");
     }
-    ;
 });
 
 
@@ -244,7 +236,6 @@ $('#select_col_5 *').filter(':input').each(function () {
     if ($(this).attr('disabled') == "disabled") {
         $(this).wrap("<span id='kcol' class='inactive'></span>");
     }
-    ;
 });
 
 
@@ -252,7 +243,6 @@ $('#select_col_6 *').filter(':input').each(function () {
     if ($(this).attr('disabled') == "disabled") {
         $(this).wrap("<span id='kcol' class='inactive'></span>");
     }
-    ;
 });
 
 
@@ -260,7 +250,6 @@ $('#select_col_7 *').filter(':input').each(function () {
     if ($(this).attr('disabled') == "disabled") {
         $(this).wrap("<span id='kcol' class='inactive'></span>");
     }
-    ;
 });
 
 
@@ -268,11 +257,9 @@ $('#select_col_8 *').filter(':input').each(function () {
     if ($(this).attr('disabled') == "disabled") {
         $(this).wrap("<span id='kcol' class='inactive'></span>");
     }
-    ;
 });
 
 $(document).on('click', '.inactive', function () {
-
     CalcFieldChecker($(this).children("select"));
     $(this).removeClass('inactive');
 });
@@ -282,5 +269,4 @@ function moveCaretToStart(inputObject) {
         inputObject.setSelectionRange(0, 0);
         inputObject.focus();
     }
-
 }
