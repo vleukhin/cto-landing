@@ -50,7 +50,7 @@ $(document).ready(function () {
         minLength: 2
     });
 
-    $('[type="submit"]').on('click', function () {
+    $('body').delegate('[type="submit"]', 'click', function () {
         var form = $(this).closest('form');
         var field = form.find('[name=phone]');
         var phone = field.val();
