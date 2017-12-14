@@ -1,0 +1,36 @@
+.wrap-select {
+	width: 100%;
+	overflow: hidden;
+}
+.wrap-select select {
+	width: 110%;
+}
+select {
+	background: url(../img/arrow-point.png) no-repeat 80% #fff;
+}
+.form-1-btn {
+	font-size: 20px;
+}
+.calc-col-3 {
+	width: 180px;
+	overflow: hidden;
+}
+.calc-col-3 select {
+	width: 200px;
+}
+.calc-col-4 {
+		width: 180px;
+	overflow: hidden;
+}
+.calc-col-4 select {
+	width: 200px;
+}
+.callback-btn {
+	font-size: 20px;
+}
+.form-catalog p {
+	font-size: 20px;
+}
+.form-catalog-left p {
+	font-size: 20px;
+}
