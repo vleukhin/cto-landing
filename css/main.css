@@ -6,8 +6,7 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=cyrillic');
 iframe{border:0}
 .modal-body{padding:15px 74px}
-.modal-body /.input-text{border:1px solid #000}
-*/
+.modal-body .input-text{border:1px solid #000}
 .row{padding:0}
 *{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
 div.alert_on{display:block;font-size:16px;font-style:italic;color:#fff;float:left;padding-left:4px}
@@ -287,14 +286,14 @@ fieldset{padding-top:2.5%;padding-bottom:2.5%;border-top:none;border-left:none;b
 .modalDialog h4{font: 30px 'Roboto Condensed', sans-serif;margin-bottom:6%;text-transform:uppercase;font-weight: bold;}
 .modalDialog2:target{display:block;pointer-events:auto}
 .modalDialog2 h4{font: 5px 'times new roman', sans-serif;margin-bottom:6%;text-transform:none;font-weight: bold;}
-.modalDialog2 h1{text-align:center;font: 20px 'times new roman', sans-serif;margin-bottom:1%;margin-top:0o;text-transform:none;font-weight: bold;} 
+.modalDialog2 h1{text-align:center;font: 20px 'times new roman', sans-serif;margin-bottom:1%;margin-top:0o;text-transform:none;font-weight: bold;}
 .modalDialog2 h2{text-align:justify;font: 13px 'times new roman', sans-serif;margin-bottom:1%;margin-left:5%;margin-right:5%;text-transform:none
-;font-weight: bold;} 
+;font-weight: bold;}
 .modalDialog2 h3{text-align:justify;font: 12px 'times new roman', sans-serif;margin-bottom:1%;margin-left:10%;margin-right:5%;text-transform:none
-;font-weight: bold;} 
+;font-weight: bold;}
 .modalDialog2 h5{text-align:center;font: 13px 'times new roman', sans-serif;margin-bottom:1%;margin-left:5%;margin-right:5%;text-transform:none
 ;font-weight: bold;}
-.modalDialog2 h6{text-align:center;font: 14px 'times new roman', sans-serif;margin-bottom:1%;margin-top:0o;text-transform:none;font-weight: bold;} 
+.modalDialog2 h6{text-align:center;font: 14px 'times new roman', sans-serif;margin-bottom:1%;margin-top:0o;text-transform:none;font-weight: bold;}
 .otstup {text-indent: 20px;}  /* ??? ??? ??? ????? */
 
 .input-modal{background:#efe3e6;margin:5px 0;width:430px}
