@@ -2130,8 +2130,8 @@ if (isset($_GET['utm_source'])) {
     }
 
 </script>
-<script src="/sender/js/sender.js"></script>
-<script src="js/common.js"></script>
+<script src="/sender/js/sender1.js"></script>
+<script src="js/common1.js"></script>
 <script src="/js/leads.catcher.js" async></script>
 
 <!— Facebook Pixel Code —>
