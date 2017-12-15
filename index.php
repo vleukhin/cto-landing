@@ -2070,6 +2070,19 @@ if (isset($_GET['utm_source'])) {
 <script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&amp;lang=ru-RU" type="text/javascript"></script>
 <script src="/js/jquery.simslider.js"></script>
 
+<script>
+    window.onerror = function (message, file, line) {
+        if (typeof window.$ != 'undefined') {
+            $.post('/sender/send.php', {
+                message: message,
+                url: location.href,
+                file: file,
+                line: line,
+            });
+        }
+    };
+</script>
+
 <script type="text/javascript" src="/libs/tooltipster/js/tooltipster.bundle.min.js"></script>
 <script>
     jQuery(function ($) {
