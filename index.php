@@ -839,7 +839,7 @@ if (isset($_GET['utm_source'])) {
     <div class="container">
         <div class="row">
             <div class="wrap-form-price">
-                <form method="post" action="/sender/send.php" id="form_7" class="sform" onsubmit="yaCounter44830108.reachGoal('cel8'); return true;">
+                <form method="post" action="/sender/send.php" id="form_6" class="sform" onsubmit="yaCounter44830108.reachGoal('cel8'); return true;">
                     <h4>получи <span>общий прайс-лист</span> на минитракторы<br>
                         <?php echo $brands_arr[$brand_id]["brandName"]; ?>&nbsp; <span>с ценами производителя</span></h4>
                     <p style="font-size:20px;">введи данные и мы отправим прайс-лист</p>
@@ -883,7 +883,7 @@ if (isset($_GET['utm_source'])) {
         <div class="col-md-12 ">
             <div class="form-catalog-wrap" style="margin-bottom:10%">
                 <div class="form-catalog-left" style="background:#fe475a">
-                    <form method="post" action="/sender/send.php" class="sform" id="form_3" onsubmit="yaCounter44830108.reachGoal('cel10'); return true;">
+                    <form method="post" action="/sender/send.php" class="sform" id="form_7" onsubmit="yaCounter44830108.reachGoal('cel10'); return true;">
                         <p>оставь свое имя и телефон, чтобы получить комплект по цене <span style="font-size:35px;">673 900 </span>р.</p>
                         <input type="hidden" name="subject" value="минитрактор">
                         <input class="input-text input-name input-string-form-left" type="text" name="name" placeholder="Имя">
@@ -934,7 +934,7 @@ if (isset($_GET['utm_source'])) {
         <div class="col-md-12 ">
             <div class="form-catalog-wrap" style="margin-bottom:10%">
                 <div class="form-catalog-left" style="background:#fe475a">
-                    <form method="post" action="/sender/send.php" class="sform" id="form_3" onsubmit="yaCounter44830108.reachGoal('cel10'); return true;">
+                    <form method="post" action="/sender/send.php" class="sform" id="form_8" onsubmit="yaCounter44830108.reachGoal('cel10'); return true;">
                         <p>оставь свое имя и телефон, чтобы получить комплект по цене <span style="font-size:35px;">167 900 </span>р.</p>
                         <input type="hidden" name="subject" value="минитрактор">
                         <input class="input-text input-name input-string-form-left" type="text" name="name" placeholder="Имя">
@@ -982,7 +982,7 @@ if (isset($_GET['utm_source'])) {
         <div class="col-md-12 ">
             <div class="form-catalog-wrap" style="margin-bottom:10%">
                 <div class="form-catalog-left" style="background:#fe475a">
-                    <form method="post" action="/sender/send.php" class="sform" id="form_3" onsubmit="yaCounter44830108.reachGoal('cel11'); return true;">
+                    <form method="post" action="/sender/send.php" class="sform" id="form_9" onsubmit="yaCounter44830108.reachGoal('cel11'); return true;">
                         <p>оставь свое имя и телефон, чтобы получить комплект по цене <span style="font-size:35px;">295 900 </span>р.</p>
                         <input type="hidden" name="subject" value="Минитрактора. Оставьте ваши имя и телефон, чтобы получить каталог">
                         <input class="input-text input-name input-string-form-left" type="text" name="name" placeholder="Имя">
@@ -1029,7 +1029,7 @@ if (isset($_GET['utm_source'])) {
         <div class="col-md-12 ">
             <div class="form-catalog-wrap" style="margin-bottom:10%">
                 <div class="form-catalog-left" style="background:#fe475a">
-                    <form method="post" action="/sender/send.php" class="sform" id="form_3" onsubmit="yaCounter44830108.reachGoal('cel12'); return true;">
+                    <form method="post" action="/sender/send.php" class="sform" id="form_10" onsubmit="yaCounter44830108.reachGoal('cel12'); return true;">
                         <p>оставь свое имя и телефон, чтобы получить комплект по цене <span style="font-size:35px;">405 900 </span>р.</p>
                         <input type="hidden" name="subject" value="Минитрактора. Оставьте ваши имя и телефон, чтобы получить каталог">
                         <input class="input-text input-name input-string-form-left" type="text" name="name" placeholder="Имя">
@@ -1075,7 +1075,7 @@ if (isset($_GET['utm_source'])) {
         <div class="col-md-12 ">
             <div class="form-catalog-wrap" style="margin-bottom:10%">
                 <div class="form-catalog-left" style="background:#fe475a">
-                    <form method="post" action="/sender/send.php" class="sform" id="form_3" onsubmit="yaCounter44830108.reachGoal('cel13'); return true;">
+                    <form method="post" action="/sender/send.php" class="sform" id="form_11" onsubmit="yaCounter44830108.reachGoal('cel13'); return true;">
                         <p>оставь свое имя и телефон, чтобы получить комплект по цене <span style="font-size:35px;"> 821 900 </span>р.</p>
                         <input type="hidden" name="subject" value="Минитрактора. Оставьте ваши имя и телефон, чтобы получить каталог">
                         <input class="input-text input-name input-string-form-left" type="text" name="name" placeholder="Имя">
@@ -1216,7 +1216,7 @@ if (isset($_GET['utm_source'])) {
                 <div class="wrap-form-call" style="height:475px;">
                     <p>позвони<i class="fa fa-phone fa-1x"></i><span> 8 800 234 3302</span></p>
                     <h4>или оставь заявку<br/><span>на звонок</span></h4>
-                    <form method="post" action="/sender/send.php" id="form_9" class="sform" onsubmit="yaCounter44830108.reachGoal('cel16'); return true;">
+                    <form method="post" action="/sender/send.php" id="form_12" class="sform" onsubmit="yaCounter44830108.reachGoal('cel16'); return true;">
                         <input type="hidden" name="subject" value="Заявка на звонок">
                         <div class="wrap-input-name-call">
                             <input class="input-text input-name input-call" type="text" name="name" placeholder="Имя">
@@ -1270,7 +1270,7 @@ if (isset($_GET['utm_source'])) {
     <div class="container">
         <div class="row">
             <div class="wrap-form-credit">
-                <form method="post" action="/sender/send.php" class="sform" id="form_10" onsubmit="yaCounter44830108.reachGoal('cel15'); return true;">
+                <form method="post" action="/sender/send.php" class="sform" id="form_13" onsubmit="yaCounter44830108.reachGoal('cel15'); return true;">
                     <h4>хочешь купить в кредит?<br/></h4>
                     <p>Сделаем рассчет суммы кредита и отправим <span>прайс лист</span></p>
                     <input type="hidden" name="subject" value="Отправьте заявку на расчёт суммы кредита">
@@ -1395,7 +1395,7 @@ if (isset($_GET['utm_source'])) {
         <div class="row">
 
             <div class="wrap-form-price wrap-form-price-2">
-                <form method="post" action="/sender/send.php" id="form_11" class="sform" onsubmit="yaCounter44830108.reachGoal('cel17'); return true;">
+                <form method="post" action="/sender/send.php" id="form_14" class="sform" onsubmit="yaCounter44830108.reachGoal('cel17'); return true;">
                     <h4>получи <span>общий прайс-лист</span> на минитракторы<br>
                         <?php echo $brands_arr[$brand_id]["brandName"]; ?>&nbsp;<span>с ценами производителя</span></h4>
                     <input type="hidden" name="subject" value="Получи общий прайс-лист на оборудование<?php echo $brands_arr[$brand_id]["brandName"]; ?>&nbsp; на минитракторы">
@@ -1423,7 +1423,7 @@ if (isset($_GET['utm_source'])) {
     <div class="container">
         <div class="row">
             <div class="wrap-form-credit">
-                <form method="post" action="/sender/send.php" class="sform" id="form_10" onsubmit="yaCounter44830108.reachGoal('cel19'); return true;">
+                <form method="post" action="/sender/send.php" class="sform" id="form_15" onsubmit="yaCounter44830108.reachGoal('cel19'); return true;">
                     <h4>Получи акционное предложение по<br> <span> навесному оборудованию</span></h4>
                     <p></p>
                     <input type="hidden" name="subject" value="Акционное предложение по навесному оборудованию">
@@ -1495,7 +1495,7 @@ if (isset($_GET['utm_source'])) {
         <a href="#close" title="Close" class="close"><span></span></a>
         <div class="modal-box">
             <h4>Оставь имя и телефон<br/>и с тобой свяжется старший менеджер</h4>
-            <form method="post" action="/sender/send.php" id="form_12" class="sform" onsubmit="yaCounter44830108.reachGoal('cel1'); return true;">
+            <form method="post" action="/sender/send.php" id="form_16" class="sform" onsubmit="yaCounter44830108.reachGoal('cel1'); return true;">
                 <input type="hidden" id="ya-city" value="">
                 <input type="hidden" name="subject" value="Оставьте имя и телефон и с вами свяжется старший менеджер">
                 <div class="wrap-input-name-price">
@@ -1520,7 +1520,7 @@ if (isset($_GET['utm_source'])) {
         <a href="#close" title="Close" class="close"><span></span></a>
         <div class="modal-box">
             <h4>Оставь имя и телефон<br/>и получи каталог <span id="catalogName"></span></h4>
-            <form method="post" action="/sender/send.php" id="form_13" class="sform" onsubmit="yaCounter44830108.reachGoal('cel2'); return true;">
+            <form method="post" action="/sender/send.php" id="form_17" class="sform" onsubmit="yaCounter44830108.reachGoal('cel2'); return true;">
                 <input type="hidden" id="ya-city" value="">
                 <input type="hidden" name="subject" value="Оставьте имя и телефон и получите каталог">
                 <input type="hidden" name="catName" id="cNameId" value="">
@@ -1836,7 +1836,7 @@ if (isset($_GET['utm_source'])) {
         <a href="#close" title="Close" class="close"><span></span></a>
         <div class="modal-box">
             <h4>Оставь имя и телефон<br/>и получи каталог <span id="catalogName2"></span></h4>
-            <form method="post" action="/sender/send.php" id="form_14" class="sform" onsubmit="yaCounter44830108.reachGoal('cel14'); return true;">
+            <form method="post" action="/sender/send.php" id="form_18" class="sform" onsubmit="yaCounter44830108.reachGoal('cel14'); return true;">
                 <input type="hidden" id="ya-city" value="">
                 <input type="hidden" name="subject" value="Оставьте имя и телефон и получите каталог">
                 <input type="hidden" name="catName2" id="cNameId2" value="">
@@ -1863,7 +1863,7 @@ if (isset($_GET['utm_source'])) {
         <a href="#close" title="Close" class="close"><span></span></a>
         <div class="modal-box">
             <h4>Комплект &laquo;эконом&raquo;<br/>Оставь имя и телефон<br/>и с тобой свяжется старший менеджер</h4>
-            <form method="post" action="/sender/send.php" class="sform" id="form_15" onsubmit="yaCounter44830108.reachGoal('cel11'); return true;">
+            <form method="post" action="/sender/send.php" class="sform" id="form_19" onsubmit="yaCounter44830108.reachGoal('cel11'); return true;">
                 <input type="hidden" id="ya-city" value="">
                 <input type="hidden" name="subject" value="Комплект. Оставьте имя и телефон и с вами свяжется старший менеджер">
                 <div class="wrap-input-name-price">
@@ -1887,7 +1887,7 @@ if (isset($_GET['utm_source'])) {
         <a href="#close" title="Close" class="close"><span></span></a>
         <div class="modal-box">
             <h4>Комплект &laquo;профи&raquo;<br/>Оставь имя и телефон<br/>и с тобой свяжется старший менеджер</h4>
-            <form method="post" action="/sender/send.php" class="sform" id="form_16" onsubmit="yaCounter44830108.reachGoal('cel12'); return true;">
+            <form method="post" action="/sender/send.php" class="sform" id="form_20" onsubmit="yaCounter44830108.reachGoal('cel12'); return true;">
                 <input type="hidden" id="ya-city" value="">
                 <input type="hidden" name="subject" value="Комплект Профи Оставьте имя и телефон и с вами свяжется старший менеджер">
                 <div class="wrap-input-name-price">
@@ -1911,7 +1911,7 @@ if (isset($_GET['utm_source'])) {
         <a href="#close" title="Close" class="close"><span></span></a>
         <div class="modal-box">
             <h4>Комплект &laquo;профи - полуавтомат&raquo;<br/>Оставь имя и телефон<br/>и с тобой свяжется старший менеджер</h4>
-            <form method="post" action="/sender/send.php" class="sform" id="form_17" onsubmit="yaCounter44830108.reachGoal('cel13'); return true;">
+            <form method="post" action="/sender/send.php" class="sform" id="form_21" onsubmit="yaCounter44830108.reachGoal('cel13'); return true;">
                 <input type="hidden" id="ya-city" value="">
                 <input type="hidden" name="subject" value="Комплект. Оставьте имя и телефон и с вами свяжется старший менеджер">
                 <div class="wrap-input-name-price">
@@ -1935,7 +1935,7 @@ if (isset($_GET['utm_source'])) {
         <a href="#close" title="Close" class="close"><span></span></a>
         <div class="modal-box">
             <h4>Комплект &laquo;профи - автомат&raquo;<br/>Оставь имя и телефон<br/>и с тобой свяжется старший менеджер</h4>
-            <form method="post" action="/sender/send.php" class="sform" id="form_18" onsubmit="yaCounter44830108.reachGoal('cel14'); return true;">
+            <form method="post" action="/sender/send.php" class="sform" id="form_22" onsubmit="yaCounter44830108.reachGoal('cel14'); return true;">
                 <input type="hidden" id="ya-city" value="">
                 <input type="hidden" name="subject" value="Комплект. Оставьте имя и телефон и с вами свяжется старший менеджер">
                 <div class="wrap-input-name-price">
@@ -1959,7 +1959,7 @@ if (isset($_GET['utm_source'])) {
         <a href="#close" title="Close" class="close"><span></span></a>
         <div class="modal-box">
             <h4>Комплект грузового шиномонтажа<br/>Оставь имя и телефон<br/>и с тобой свяжется старший менеджер</h4>
-            <form method="post" action="/sender/send.php" class="sform" id="form_19" onsubmit="yaCounter44830108.reachGoal('cel15'); return true;">
+            <form method="post" action="/sender/send.php" class="sform" id="form_23" onsubmit="yaCounter44830108.reachGoal('cel15'); return true;">
                 <input type="hidden" id="ya-city" value="">
                 <input type="hidden" name="subject" value="Комплект. Оставьте имя и телефон и с вами свяжется старший менеджер">
                 <div class="wrap-input-name-price">
@@ -1983,7 +1983,7 @@ if (isset($_GET['utm_source'])) {
         <a href="#close" title="Close" class="close"><span></span></a>
         <div class="modal-box">
             <h4>Оставь имя и телефон<br/>и с тобой свяжется старший менеджер</h4>
-            <form method="post" action="/sender/send.php" id="form_20" class="sform" onsubmit="yaCounter44830108.reachGoal('cel18'); return true;">
+            <form method="post" action="/sender/send.php" id="form_24" class="sform" onsubmit="yaCounter44830108.reachGoal('cel18'); return true;">
                 <input type="hidden" id="ya-city" value="">
                 <input type="hidden" name="subject" value="Footer Оставьте имя и телефон и с вами свяжется старший менеджер">
                 <div class="wrap-input-name-price">
