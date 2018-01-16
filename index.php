@@ -883,17 +883,18 @@ if (isset($_GET['utm_source'])) {
         <div class="col-md-12 ">
             <div class="form-catalog-wrap" style="margin-bottom:10%">
                 <div class="form-catalog-left" style="background:#fe475a">
-                    <form method="post" action="/sender/send.php" class="sform" id="form_7" onsubmit="yaCounter44830108.reachGoal('cel10'); return true;">
-                        <p>оставь свое имя и телефон, чтобы получить комплект по цене <span style="font-size:35px;">673 900 </span>р.</p>
+                    <form method="post" action="/sender/send.php" class="sform" id="form_7" onsubmit="yaCounter44830108.reachGoal('cel10'); return true;"><span style="font-size:24px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:20%;">Узнайте ваше акционное предложение у менеджера</span><strong><span style="font-size:35px; color:yellow;"></span>
+
+                        <p style="margin-top:-5px">оставь свое имя и телефон, чтобы получить комплект по специальной цене <span style="font-size:35px;"></span></p>
                         <input type="hidden" name="subject" value="минитрактор">
                         <input class="input-text input-name input-string-form-left" type="text" name="name" placeholder="Имя">
                         <input class="input-text input-phone input-string-form phone-mask"  maxlength="18" type="text" name="phone" placeholder="Телефон*" required">
                         <input class="input-text input-email input-string-form input-string-form-3" type="email" name="email" placeholder="Почта">
                         <div class="alert_on" id="phone_bottom_3"></div>
-                        <span style="font-size:19px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:5%;">Ваша выгода</span><strong><span style="font-size:35px; color:yellow;">15 500 р.</span></strong><br>
+                        <span style="font-size:19px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:5%;"></span><strong><span style="font-size:35px; color:yellow;"></span></strong><br>
                         <div class="alert_on" id="phone_bottom_3"></div>
 
-                        <div class="wrap-form-btn btn-position-center">
+                        <div class="wrap-form-btn btn-position-center2">
                             <input class="form-button form-2-btn" type="submit" name="catalog" value="Получить">
 
 
@@ -919,7 +920,7 @@ if (isset($_GET['utm_source'])) {
 <div class="container section-string-form">
     <div class="row">
         <div class="col-md-12 section-title section-title-2">
-            <h2><span>КОМПЛЕКТ "ЭКОНОМ"</span></h2>
+            <h2><span>комплект "скаут с отвалом"</span></h2>
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -934,17 +935,18 @@ if (isset($_GET['utm_source'])) {
         <div class="col-md-12 ">
             <div class="form-catalog-wrap" style="margin-bottom:10%">
                 <div class="form-catalog-left" style="background:#fe475a">
-                    <form method="post" action="/sender/send.php" class="sform" id="form_8" onsubmit="yaCounter44830108.reachGoal('cel10'); return true;">
-                        <p>оставь свое имя и телефон, чтобы получить комплект по цене <span style="font-size:35px;">167 900 </span>р.</p>
+                    <form method="post" action="/sender/send.php" class="sform" id="form_8" onsubmit="yaCounter44830108.reachGoal('cel10'); return true;"><span style="font-size:24px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:20%;">Узнайте ваше акционное предложение у менеджера</span><strong><span style="font-size:35px; color:yellow;"></span>
+
+                        <p style="margin-top:-5px">оставь свое имя и телефон, чтобы получить комплект по специальной цене <span style="font-size:35px;"></span></p>
                         <input type="hidden" name="subject" value="минитрактор">
                         <input class="input-text input-name input-string-form-left" type="text" name="name" placeholder="Имя">
                         <input class="input-text input-phone input-string-form phone-mask"  maxlength="18" type="text" name="phone" placeholder="Телефон*" required">
                         <input class="input-text input-email input-string-form input-string-form-3" type="email" name="email" placeholder="Почта">
                         <div class="alert_on" id="phone_bottom_3"></div>
-                        <span style="font-size:19px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:5%;">Ваша выгода</span><strong><span style="font-size:35px; color:yellow;"> 6 500 р.</span></strong><br>
+                        <span style="font-size:19px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:5%;"></span><strong><span style="font-size:35px; color:yellow;"></span></strong><br>
                         <div class="alert_on" id="phone_bottom_3"></div>
 
-                        <div class="wrap-form-btn btn-position-center">
+                        <div class="wrap-form-btn btn-position-center2">
                             <input class="form-button form-2-btn" type="submit" name="catalog" value="Получить">
 
 
@@ -967,7 +969,7 @@ if (isset($_GET['utm_source'])) {
 <div class="container section-string-form">
     <div class="row">
         <div class="col-md-12 section-title section-title-2">
-            <h2><span>КОМПЛЕКТ "МЕДИУМ"</span></h2>
+            <h2><span>комплект "русич с отвалом"</span></h2>
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -982,16 +984,16 @@ if (isset($_GET['utm_source'])) {
         <div class="col-md-12 ">
             <div class="form-catalog-wrap" style="margin-bottom:10%">
                 <div class="form-catalog-left" style="background:#fe475a">
-                    <form method="post" action="/sender/send.php" class="sform" id="form_9" onsubmit="yaCounter44830108.reachGoal('cel11'); return true;">
-                        <p>оставь свое имя и телефон, чтобы получить комплект по цене <span style="font-size:35px;">295 900 </span>р.</p>
+                    <form method="post" action="/sender/send.php" class="sform" id="form_9" onsubmit="yaCounter44830108.reachGoal('cel11'); return true;"><span style="font-size:24px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:20%;">Узнайте ваше акционное предложение у менеджера</span><strong><span style="font-size:35px; color:yellow;"></span>
+                        <p style="margin-top:-5px">оставь свое имя и телефон, чтобы получить комплект по специальной цене <span style="font-size:35px;"></span></p>
                         <input type="hidden" name="subject" value="Минитрактора. Оставьте ваши имя и телефон, чтобы получить каталог">
                         <input class="input-text input-name input-string-form-left" type="text" name="name" placeholder="Имя">
                         <input class="input-text input-phone input-string-form phone-mask"  maxlength="18" type="text" name="phone" placeholder="Телефон*" required">
                         <input class="input-text input-email input-string-form input-string-form-3" type="email" name="email" placeholder="Почта">
-                        <span style="font-size:19px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:5%;">Ваша выгода</span><span style="font-size:35px; color:yellow;"><strong> 9 400 р.</strong></span><br>
+                        <span style="font-size:19px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:5%;"></span><span style="font-size:35px; color:yellow;"><strong></strong></span><br>
                         <div class="alert_on" id="phone_bottom_3"></div>
 
-                        <div class="wrap-form-btn btn-position-center">
+                        <div class="wrap-form-btn btn-position-center2">
                             <input class="form-button form-2-btn" type="submit" name="catalog" value="Получить">
 
 
@@ -1014,7 +1016,7 @@ if (isset($_GET['utm_source'])) {
 <div class="container section-string-form">
     <div class="row">
         <div class="col-md-12 section-title section-title-2">
-            <h2><span>КОМПЛЕКТ "ПРЕМИУМ"</span></h2>
+            <h2><span>комплект "уралец с отвалом"</span></h2>
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -1029,16 +1031,17 @@ if (isset($_GET['utm_source'])) {
         <div class="col-md-12 ">
             <div class="form-catalog-wrap" style="margin-bottom:10%">
                 <div class="form-catalog-left" style="background:#fe475a">
-                    <form method="post" action="/sender/send.php" class="sform" id="form_10" onsubmit="yaCounter44830108.reachGoal('cel12'); return true;">
-                        <p>оставь свое имя и телефон, чтобы получить комплект по цене <span style="font-size:35px;">405 900 </span>р.</p>
+                    <form method="post" action="/sender/send.php" class="sform" id="form_10" onsubmit="yaCounter44830108.reachGoal('cel12'); return true;"><span style="font-size:24px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:20%;">Узнайте ваше акционное предложение у менеджера</span><strong><span style="font-size:35px; color:yellow;"></span> 
+
+                        <p style="margin-top:-5px">оставь свое имя и телефон, чтобы получить комплект по специальной цене <span style="font-size:35px;"></span></p>
                         <input type="hidden" name="subject" value="Минитрактора. Оставьте ваши имя и телефон, чтобы получить каталог">
                         <input class="input-text input-name input-string-form-left" type="text" name="name" placeholder="Имя">
                         <input class="input-text input-phone input-string-form phone-mask"  maxlength="18" type="text" name="phone" placeholder="Телефон*" required">
                         <input class="input-text input-email input-string-form input-string-form-3" type="email" name="email" placeholder="Почта">
-                        <span style="font-size:19px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:5%;">Ваша выгода</span><span style="font-size:35px; color:yellow;"><strong> 13 800 р.</strong></span><br>
+                        <span style="font-size:19px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:5%;"></span><span style="font-size:35px; color:yellow;"><strong></strong></span><br>
                         <div class="alert_on" id="phone_bottom_3"></div>
 
-                        <div class="wrap-form-btn btn-position-center">
+                        <div class="wrap-form-btn btn-position-center2">
                             <input class="form-button form-2-btn" type="submit" name="catalog" value="Получить">
 
 
@@ -1060,7 +1063,7 @@ if (isset($_GET['utm_source'])) {
 <div class="container section-string-form">
     <div class="row">
         <div class="col-md-12 section-title section-title-2">
-            <h2><span>КОМПЛЕКТ "VIP"</span></h2>
+            <h2><span>комплект "донгфег с фронтальным погрузчиком"</span></h2>
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -1069,22 +1072,23 @@ if (isset($_GET['utm_source'])) {
         </div>
 
 
-        <h4><p style="text-align:center; font-size:25px;">DONGFENGDF 244C, ГУ, ДОП. ГИДРОВЫХОДЫ + ФРОНТАЛЬНЫЙ ПОГРУЗЧИК FEL-250</p></h4>
+        <h4><p style="text-align:center; font-size:25px;">DONGFENG DF 244C, ГУ, ДОП. ГИДРОВЫХОДЫ + ФРОНТАЛЬНЫЙ ПОГРУЗЧИК FEL-250</p></h4>
     </div>
     <div class="row">
         <div class="col-md-12 ">
             <div class="form-catalog-wrap" style="margin-bottom:10%">
                 <div class="form-catalog-left" style="background:#fe475a">
-                    <form method="post" action="/sender/send.php" class="sform" id="form_11" onsubmit="yaCounter44830108.reachGoal('cel13'); return true;">
-                        <p>оставь свое имя и телефон, чтобы получить комплект по цене <span style="font-size:35px;"> 821 900 </span>р.</p>
+                    <form method="post" action="/sender/send.php" class="sform" id="form_11" onsubmit="yaCounter44830108.reachGoal('cel13'); return true;"><span style="font-size:24px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:20%;">Узнайте ваше акционное предложение у менеджера</span><strong><span style="font-size:35px; color:yellow;"></span> 
+
+                        <p style="margin-top:-5px">оставь свое имя и телефон, чтобы получить комплект по специальной цене <span style="font-size:35px;"> </span></p>
                         <input type="hidden" name="subject" value="Минитрактора. Оставьте ваши имя и телефон, чтобы получить каталог">
                         <input class="input-text input-name input-string-form-left" type="text" name="name" placeholder="Имя">
                         <input class="input-text input-phone input-string-form phone-mask"  maxlength="18" type="text" name="phone" placeholder="Телефон*" required">
                         <input class="input-text input-email input-string-form input-string-form-3" type="email" name="email" placeholder="Почта">
-                        <span style="font-size:19px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:5%;">Ваша выгода</span><span style="font-size:35px; color:yellow;"><strong> 25 000 р.</strong></span><br>
+                        <span style="font-size:19px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:5%;"></span><span style="font-size:35px; color:yellow;"><strong></strong></span><br>
                         <div class="alert_on" id="phone_bottom_3"></div>
 
-                        <div class="wrap-form-btn btn-position-center">
+                        <div class="wrap-form-btn btn-position-center2">
                             <input class="form-button form-2-btn" type="submit" name="catalog" value="Получить">
 
 
