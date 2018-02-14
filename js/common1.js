@@ -1,9 +1,5 @@
 $(document).ready(function () {
 
-//mask
-    $(".phone-mask").mask("0 (000) 000-00-00", {placeholder: "_ (___) ___-__-__"});
-
-
     $('.regionCity').click(function (e) {
         e.preventDefault();
         $('.city-p').text($(this).text())
@@ -48,27 +44,6 @@ $(document).ready(function () {
     $('#search-city').autocomplete({
         source: 'city.php',
         minLength: 2
-    });
-
-    $('body').delegate('[type="submit"]', 'click', function () {
-        var form = $(this).closest('form');
-        var field = form.find('[name=phone]');
-        var phone = field.val();
-
-        if (!validPhone(phone)) {
-            field.attr('title', 'Номер введен некорректно!');
-
-            if (!field.hasClass('tooltipstered')) {
-                field.tooltipster();
-            }
-
-            field.tooltipster('open');
-            field.focus();
-
-            return false;
-        }
-
-        return true;
     });
 });
 
@@ -189,12 +164,6 @@ function CalcFieldChecker(e) {
 
     }
 
-}
-
-function validPhone(phone) {
-    var pattern = /^((8|\+7|7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/;
-
-    return pattern.test(phone);
 }
 
 $('#select_col_1 *').filter(':input').each(function () {

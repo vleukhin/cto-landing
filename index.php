@@ -424,8 +424,6 @@ if (isset($_GET['utm_source'])) {
     <meta name="Keywords" content="Оборудование для шиномонтажа, шиномонтажные станки, балансировочные станки, шиномонтажные полуавтоматы, балансировочные полуавтоматы, шиномонтажные стенды, балансировочные стенды. Легковые шиномонтажные станки, грузовые шиномонтажные станки">
     <link rel="shortcut icon" href="favicon.ico">
 
-    <link rel="stylesheet" type="text/css" href="/libs/tooltipster/css/tooltipster.bundle.min.css" />
-
     <link href="https://cdn.jsdelivr.net/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="/css/main.css"/>
@@ -2087,7 +2085,6 @@ if (isset($_GET['utm_source'])) {
     };
 </script>
 
-<script type="text/javascript" src="/libs/tooltipster/js/tooltipster.bundle.min.js"></script>
 <script>
     jQuery(function ($) {
         $('.block-1 .sliderBox').SimSlider({
@@ -2135,8 +2132,8 @@ if (isset($_GET['utm_source'])) {
 
 </script>
 <script src="/sender/js/sender1.js"></script>
-<script src="js/common1.js"></script>
 <script src="/js/leads.catcher.js" async></script>
+<script src="js/common1.js"></script>
 
 <!— Facebook Pixel Code —>
 <script>
