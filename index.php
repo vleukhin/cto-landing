@@ -577,6 +577,7 @@ if (isset($_GET['utm_source'])) {
     </div>
 </div>
 
+<?php include 'quiz.php' ?>
 
 <div class="wrap-section-string-form">
     <div class="container section-string-form">
@@ -2133,7 +2134,8 @@ if (isset($_GET['utm_source'])) {
 </script>
 <script src="/sender/js/sender1.js"></script>
 <script src="/js/leads.catcher.js" async></script>
-<script src="js/common1.js"></script>
+<script src="/js/common1.js"></script>
+<script src="/js/quiz.js"></script>
 
 <!— Facebook Pixel Code —>
 <script>
