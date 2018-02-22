@@ -1,4 +1,13 @@
 <div id="quiz">
+	<div class="step-numbers">
+		<span
+			v-for="(step, index) in quiz.steps"
+			v-bind:class="{'step-numbers__number_active': index == currentStep}"
+			class="step-numbers__number"
+		>
+			{{ index + 1 }}
+		</span>
+	</div>
 	<div v-for="(step, index) in quiz.steps" v-show="currentStep == index">
 		<h2 v-html="quiz.name"></h2>
 		<p v-html="step.text"></p>
@@ -60,9 +69,6 @@
 			Далее
 		</button>
 	</div>
-	<pre>
-        {{ result }}
-    </pre>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.js"></script>
 <script>
