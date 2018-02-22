@@ -58,7 +58,7 @@
 					>
 					<input type="hidden" name="note" :value="result">
 				</div>
-				<button type="submit" class="form-button form-1-btn quiz-step__button">Отправить</button>
+				<input type="submit" class="form-button form-1-btn quiz-step__button" value="Отправить"></input>
 			</form>
 		</div>
 
