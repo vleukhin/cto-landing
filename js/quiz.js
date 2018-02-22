@@ -22,7 +22,7 @@ var quiz = new Vue({
 
     computed: {
         result: function () {
-            var result = '';
+            var result = 'Заявка через опрос.\n';
             this.quiz.steps.forEach(function (step, index) {
                 switch (typeof this.answers[index]) {
                     case 'object':
@@ -73,6 +73,7 @@ var quiz = new Vue({
             }.bind(this));
         },
         checkStep: function (stepIndex) {
+            return true;
             if (typeof this.answers[stepIndex] === 'undefined') {
                 return false;
             }
