@@ -18,11 +18,26 @@ var quiz = new Vue({
         quizData.steps.forEach(function (step, index) {
             this.answers.push({});
         }.bind(this));
+
+	    var css = document.createElement('link');
+	    css.href = '/quiz/quiz.css';
+	    css.type = "text/css";
+	    css.rel = "stylesheet";
+	    css.media = "screen,print";
+	    document.head.appendChild(css);
+
+	    var css = document.createElement('link');
+	    css.href = 'https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css';
+	    css.type = "text/css";
+	    css.rel = "stylesheet";
+	    css.media = "screen,print";
+	    document.head.appendChild(css);
+
     },
 
     computed: {
         result: function () {
-            var result = '';
+            var result = 'Заявка через опрос.\n';
             this.quiz.steps.forEach(function (step, index) {
                 switch (typeof this.answers[index]) {
                     case 'object':
@@ -65,6 +80,13 @@ var quiz = new Vue({
     methods: {
         nextStep: function () {
             this.currentStep += 1;
+
+            var currentStep = this.quiz.steps[this.currentStep];
+
+            if (typeof currentStep.dependsOnStep !== 'undefined'){
+                currentStep.options = currentStep.optionsVars[this.answers[currentStep.dependsOnStep]];
+                currentStep.title = this.answers[currentStep.dependsOnStep];
+            }
         },
         selectAll: function (stepIndex, event) {
             console.log(event);
@@ -73,6 +95,7 @@ var quiz = new Vue({
             }.bind(this));
         },
         checkStep: function (stepIndex) {
+            return true;
             if (typeof this.answers[stepIndex] === 'undefined') {
                 return false;
             }

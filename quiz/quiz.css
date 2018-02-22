@@ -1,0 +1,87 @@
+.quiz {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    margin: 12px auto;
+    width: 100%;
+    max-width: 1180px;
+    padding: 40px;
+    min-height: 465px;
+}
+
+.quiz .quiz-step-numbers {
+    margin-left: 30px;
+}
+
+.quiz-step {
+    position: relative;
+}
+
+.quiz-step__title {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.quiz-step__text {
+    margin-bottom: 10px;
+}
+
+.quiz-step__button {
+    margin-top: 20px;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: -20px;
+}
+
+.quiz-step-numbers {
+
+}
+
+.quiz-step-numbers__number {
+    text-align: center;
+    background-color: yellow;
+    width: 40px;
+    display: block;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    padding-top: 8px;
+    margin-bottom: 15px;
+}
+
+.quiz-step-numbers__number:after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 15px;
+    background-color: yellow;
+    margin: 7px auto 0;
+}
+
+.quiz-step-numbers__number:last-child:after {
+    display: none;
+}
+
+.quiz-step-numbers__number_active {
+    background-color: #fe475a;
+}
+
+.quiz-step-numbers__number_done {
+    background-color: #14c039;
+}
+
+.quiz-step-numbers__number_done:after {
+    background-color: #14c039;
+}
+
+.quiz .pretty .state label:before {
+    border-color: #383838
+}
+
+@media screen and (max-width: 500px) {
+    .quiz-step__button {
+        position: relative;
+    }
+}
