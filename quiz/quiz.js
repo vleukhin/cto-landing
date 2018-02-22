@@ -80,6 +80,13 @@ var quiz = new Vue({
     methods: {
         nextStep: function () {
             this.currentStep += 1;
+
+            var currentStep = this.quiz.steps[this.currentStep];
+
+            if (typeof currentStep.dependsOnStep !== 'undefined'){
+                currentStep.options = currentStep.optionsVars[this.answers[currentStep.dependsOnStep]];
+                currentStep.title = this.answers[currentStep.dependsOnStep];
+            }
         },
         selectAll: function (stepIndex, event) {
             console.log(event);
