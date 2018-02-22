@@ -27,6 +27,14 @@
                 <label for="">{{option}}</label>
             </div>
         </div>
+
+        <div v-if="step.type == 'form'">
+            <div v-for="(input, name) in step.form">
+                <label for="">{{ input.label }}</label>
+                <input :type="input.type" v-model="answers[index][name]" value="">
+            </div>
+        </div>
+
         <button
                 type="button"
                 v-on:click="nextStep()"
@@ -36,7 +44,9 @@
             Далее
         </button>
     </div>
-    {{ result }}
+    <pre>
+        {{ result }}
+    </pre>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.js"></script>
 <script>
@@ -78,11 +88,14 @@
                 form: {
                     city: {
                         type: 'text',
-                        placeholder: ''
+                        placeholder: 'Город',
+                        label: 'Город',
+                        required: true
                     }
                 }
             },
             {
+                name: 'Финальная форма',
                 title: 'Спасибо за ответы!',
                 text: 'Мы подготовили для Вас 2 варианта <br/> комплекта шиномонтажного оборудования',
                 type: 'leadForm',

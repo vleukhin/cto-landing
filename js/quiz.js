@@ -8,34 +8,54 @@ var quiz = new Vue({
 
     data: {
         currentStep: 0,
-        answers: [
-            {}
-        ],
+        answers: [],
         quiz: {}
     },
 
     created: function () {
         this.quiz = quizData;
+
+        quizData.steps.forEach(function (step, index) {
+            this.answers.push({});
+        }.bind(this));
     },
 
     computed: {
         result: function () {
             var result = '';
             this.quiz.steps.forEach(function (step, index) {
-                switch (typeof this.answers[index]){
+                switch (typeof this.answers[index]) {
                     case 'object':
-                        var selected = [];
-                        step.options.forEach(function (option, i) {
-                            if (this.answers[index][i] === true){
-                                selected.push(option);
-                            }
-                        }.bind(this));
-                        result += (step.name + ': ' + selected.join(','));
+                        switch (step.type) {
+                            case 'checkbox':
+                                var selected = [];
+                                step.options.forEach(function (option, i) {
+                                    if (this.answers[index][i] === true) {
+                                        selected.push(option);
+                                    }
+                                }.bind(this));
+                                result += (step.name + ': ' + selected.join(', '));
+                                break;
+                            case 'form':
+                                var answer = [];
+
+                                for (var input in step.form) {
+                                    if (step.form.hasOwnProperty(input)) {
+                                        if (typeof this.answers[index][input] !== 'undefined') {
+                                            answer.push(step.form[input].placeholder + ' - ' + this.answers[index][input]);
+                                        }
+                                    }
+                                }
+
+                                result += (step.name + ': ' + answer.join(', '));
+                                break
+                        }
                         break;
                     default:
                         result += (step.name + ': ' + this.answers[index]);
                         break;
                 }
+                result += "\n";
             }.bind(this));
 
             return result;
@@ -53,18 +73,42 @@ var quiz = new Vue({
             }.bind(this));
         },
         checkStep: function (stepIndex) {
-            var result;
-
-            if (typeof this.answers[stepIndex] === 'undefined'){
+            if (typeof this.answers[stepIndex] === 'undefined') {
                 return false;
             }
 
-            this.quiz.steps[stepIndex].options.forEach(function (option, index) {
-                if (this.answers[stepIndex][index]){
+            var result = false;
+
+            switch (this.quiz.steps[stepIndex].type) {
+                case 'checkbox':
+                    this.quiz.steps[stepIndex].options.forEach(function (option, index) {
+                        if (this.answers[stepIndex][index]) {
+                            result = true;
+                            return;
+                        }
+                    }.bind(this));
+                    break;
+                case 'radio':
+                    /**
+                     * Условие в начале функции ловит не выбранный пункт
+                     * так что тут уже можно возвращать true
+                     */
                     result = true;
-                    return;
-                }
-            }.bind(this));
+                    break;
+                case 'form':
+                    result = true;
+
+                    for (var input in this.quiz.steps[stepIndex].form) {
+                        if (this.quiz.steps[stepIndex].form.hasOwnProperty(input)) {
+                            if (!this.answers[stepIndex][input] && this.quiz.steps[stepIndex].form[input].required) {
+                                result = false;
+                                return;
+                            }
+                        }
+                    }
+
+                    break;
+            }
 
             return result;
         }
