@@ -18,6 +18,21 @@ var quiz = new Vue({
         quizData.steps.forEach(function (step, index) {
             this.answers.push({});
         }.bind(this));
+
+	    var css = document.createElement('link');
+	    css.href = '/quiz/quiz.css';
+	    css.type = "text/css";
+	    css.rel = "stylesheet";
+	    css.media = "screen,print";
+	    document.head.appendChild(css);
+
+	    var css = document.createElement('link');
+	    css.href = 'https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css';
+	    css.type = "text/css";
+	    css.rel = "stylesheet";
+	    css.media = "screen,print";
+	    document.head.appendChild(css);
+
     },
 
     computed: {

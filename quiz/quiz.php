@@ -13,27 +13,37 @@
 		<p v-html="step.text"></p>
 		<div v-show="step.type == 'checkbox'">
 			<div v-for="(option, optionIndex) in step.options">
-				<input
-						type="checkbox"
-						v-model="answers[index][optionIndex]"
-						:value="option"
-						:class="'step-'+index+'-input'"
-				>
-				<label for="">{{option}}</label>
+				<div class="pretty p-default p-curve p-thick p-smooth">
+					<input type="checkbox"
+						   v-model="answers[index][optionIndex]"
+						   :value="option"
+						   :class="'step-'+index+'-input'"/>
+					<div class="state p-danger-o">
+						<label>{{option}}</label>
+					</div>
+				</div>
 			</div>
-			<input
-					type="checkbox"
-					v-if="step.selectAllOption"
-					v-on:click="selectAll(index, $event)"
-			>
-			<label for="">Выбрать всё</label>
-
+			<div class="pretty p-default p-curve p-thick p-pulse">
+				<input type="checkbox"
+					   v-if="step.selectAllOption"
+					   v-on:click="selectAll(index, $event)"/>
+				<div class="state p-danger-o">
+					<label>Выбрать всё</label>
+				</div>
+			</div>
 		</div>
 
 		<div v-show="step.type == 'radio'">
 			<div v-for="(option, optionIndex) in step.options">
-				<input type="radio" v-model="answers[index]" :value="option">
-				<label for="">{{option}}</label>
+				<div class="pretty p-default p-round p-thick p-smooth">
+					<input type="radio"
+						   v-model="answers[index]"
+						   :value="option"
+						   :class="'step-'+index+'-input'"/>
+					<div class="state p-danger-o">
+						<label>{{option}}</label>
+					</div>
+				</div>
 			</div>
 		</div>
 
@@ -65,6 +75,7 @@
 				v-on:click="nextStep()"
 				v-if="currentStep < quiz.steps.length - 1"
 				:disabled="checkStep(index) !== true"
+				class="form-button form-1-btn"
 		>
 			Далее
 		</button>
