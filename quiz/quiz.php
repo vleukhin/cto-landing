@@ -1,16 +1,7 @@
-<div id="quiz">
-	<div class="step-numbers">
-		<span
-			v-for="(step, index) in quiz.steps"
-			v-bind:class="{'step-numbers__number_active': index == currentStep}"
-			class="step-numbers__number"
-		>
-			{{ index + 1 }}
-		</span>
-	</div>
-	<div v-for="(step, index) in quiz.steps" v-show="currentStep == index">
-		<h2 v-html="quiz.name"></h2>
-		<p v-html="step.text"></p>
+<div id="quiz" class="quiz">
+	<div v-for="(step, index) in quiz.steps" v-show="currentStep == index" class="quiz-step">
+		<h2 v-html="quiz.name" class="quiz-step__title"></h2>
+		<p v-html="step.text" class="quiz-step__text"></p>
 		<div v-show="step.type == 'checkbox'">
 			<div v-for="(option, optionIndex) in step.options">
 				<div class="pretty p-default p-curve p-thick p-smooth">
@@ -50,7 +41,7 @@
 		<div v-show="step.type == 'form'">
 			<div v-for="(input, name) in step.form">
 				<label for="">{{ input.label }}</label>
-				<input :type="input.type" v-model="answers[index][name]" value="">
+				<input class="input-text" :type="input.type" v-model="answers[index][name]" value="">
 			</div>
 		</div>
 
@@ -59,6 +50,7 @@
 				<div v-for="(input, name) in step.form">
 					<label for="">{{ input.label }}</label>
 					<input
+							class="input-text"
 							:type="input.type"
 							:name="name"
 							:placeholder="input.placeholder"
@@ -66,7 +58,7 @@
 					>
 					<input type="hidden" name="note" :value="result">
 				</div>
-				<button type="submit">Отправить</button>
+				<button type="submit" class="form-button form-1-btn quiz-step__button">Отправить</button>
 			</form>
 		</div>
 
@@ -75,10 +67,19 @@
 				v-on:click="nextStep()"
 				v-if="currentStep < quiz.steps.length - 1"
 				:disabled="checkStep(index) !== true"
-				class="form-button form-1-btn"
+				class="form-button form-1-btn quiz-step__button"
 		>
 			Далее
 		</button>
+	</div>
+	<div class="quiz-step-numbers">
+		<span
+				v-for="(step, index) in quiz.steps"
+				v-bind:class="{'quiz-step-numbers__number_active': index == currentStep, 'quiz-step-numbers__number_done': index < currentStep}"
+				class="quiz-step-numbers__number"
+		>
+			{{ index + 1 }}
+		</span>
 	</div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.js"></script>
