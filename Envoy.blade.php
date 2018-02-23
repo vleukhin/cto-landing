@@ -10,6 +10,8 @@
             'шиномонтажное.оборудование5.рф' => 'subdomains/xn--80akcgufbcebe8b6d/httpdocs',
             'складское.оборудование5.рф' => 'subdomains/xn--80aidrcdyse/httpdocs',
 
+            'акция.оборудование5.рф' => 'subdomains/xn--80aqf2c5b/httpdocs',
+
             'подъемник.оборудование5.рф' => 'subdomains/xn--d1acjiigdh5h/httpdocs',
 
             'мск-автосервисное.оборудование5.рф' => 'subdomains/xn----8sbgaobukrrhewhfek/httpdocs',

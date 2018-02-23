@@ -95,7 +95,6 @@ var quiz = new Vue({
             }.bind(this));
         },
         checkStep: function (stepIndex) {
-            return true;
             if (typeof this.answers[stepIndex] === 'undefined') {
                 return false;
             }

@@ -85,3 +85,7 @@
         position: relative;
     }
 }
+
+[disabled]{
+    cursor: not-allowed !important;
+}

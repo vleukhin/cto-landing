@@ -2,7 +2,7 @@
 	<div v-for="(step, index) in quiz.steps" v-show="currentStep == index" class="quiz-step">
 		<h2 v-html="quiz.name" class="quiz-step__title"></h2>
 		<p v-html="step.text" class="quiz-step__text"></p>
-		<div v-show="step.type == 'checkbox'">
+		<div v-if="step.type == 'checkbox'">
 			<div v-for="(option, optionIndex) in step.options">
 				<div class="pretty p-default p-curve p-thick p-smooth">
 					<input type="checkbox"
@@ -24,7 +24,7 @@
 			</div>
 		</div>
 
-		<div v-show="step.type == 'radio'">
+		<div v-if="step.type == 'radio'">
 			<div v-for="(option, optionIndex) in step.options">
 				<div class="pretty p-default p-round p-thick p-smooth">
 					<input type="radio"
@@ -38,15 +38,16 @@
 			</div>
 		</div>
 
-		<div v-show="step.type == 'form'">
+		<div v-if="step.type == 'form'">
 			<div v-for="(input, name) in step.form">
 				<label for="">{{ input.label }}</label>
 				<input class="input-text" :type="input.type" v-model="answers[index][name]" value="">
 			</div>
 		</div>
 
-		<div v-show="step.type == 'leadForm'">
+		<div v-if="step.type == 'leadForm'">
 			<form action="/sender/send.php" class="sform">
+                <input type="hidden" name="subject" :value="quiz.subject">
 				<div v-for="(input, name) in step.form">
 					<label for="">{{ input.label }}</label>
 					<input
@@ -58,7 +59,7 @@
 					>
 					<input type="hidden" name="note" :value="result">
 				</div>
-				<input type="submit" class="form-button form-1-btn quiz-step__button" value="Отправить"></input>
+				<input type="submit" class="form-button form-1-btn quiz-step__button" value="Отправить">
 			</form>
 		</div>
 
@@ -83,10 +84,20 @@
 	</div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.js"></script>
-<?php if (false): ?>
+<?php
+    $group = @file_get_contents('./quiz/group.log');
+    if (!$group or $group == 2) {
+        $group = 1;
+    } else {
+        $group = 2;
+    }
+    file_put_contents('./quiz/group.log', $group);
+?>
+<?php if ($group == 1): ?>
 	<script>
         var quizData = {
             name: 'Просчитай себе комплект шиномонтажного оборудования',
+            subject: 'Quiz v1',
             steps: [
                 {
                     name: 'Тип оборудования',
@@ -156,6 +167,7 @@
 	<script>
         var quizData = {
             name: 'Просчитай себе комплект шиномонтажного оборудования',
+            subject: 'Quiz v2',
             steps: [
                 {
                     name: 'Тип оборудования',
