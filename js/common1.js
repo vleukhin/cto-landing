@@ -1,9 +1,4 @@
 $(document).ready(function () {
-
-//mask
-    $(".phone-mask").mask("0 (000) 000-00-00", {placeholder: "_ (___) ___-__-__"});
-
-
     $('.regionCity').click(function (e) {
         e.preventDefault();
         $('.city-p').text($(this).text())
@@ -155,6 +150,14 @@ function CatNameChanger2(catName2) {
 
 }
 
+function CatNameChanger3(catName3) {
+    var modalText = document.getElementById("catalogName3");
+    var cNameInputValue = document.getElementById("cNameId3");
+    modalText.innerHTML = catName3;
+    cNameInputValue.value = catName3;
+
+}
+
 function CalcFieldChecker(e) {
     //var eAttr = e.getAttribute("id");
 
@@ -191,11 +194,6 @@ function CalcFieldChecker(e) {
 
 }
 
-function validPhone(phone) {
-    var pattern = /^((8|\+7|7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/;
-
-    return pattern.test(phone);
-}
 
 $('#select_col_1 *').filter(':input').each(function () {
     if ($(this).attr('disabled') == "disabled") {

@@ -420,8 +420,8 @@ if (isset($_GET['utm_source'])) {
     <title>Центр Технического Оборудования <?php echo $brands_arr[$brand_id]["Title"]; ?></title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="description" content="Оборудование для шиномонтажа, шиномонтажные станки, балансировочные станки, шиномонтажные полуавтоматы, балансировочные полуавтоматы, шиномонтажные стенды, балансировочные стенды. Легковые шиномонтажные станки, грузовые шиномонтажные станки.">
-    <meta name="Keywords" content="Оборудование для шиномонтажа, шиномонтажные станки, балансировочные станки, шиномонтажные полуавтоматы, балансировочные полуавтоматы, шиномонтажные стенды, балансировочные стенды. Легковые шиномонтажные станки, грузовые шиномонтажные станки">
+    <meta name="description" content="Продажа минитракторов и навесного оборудования.">
+    <meta name="Keywords" content="Продажа минитракторов и навесного оборудования.">
     <link rel="shortcut icon" href="favicon.ico">
 
     <link rel="stylesheet" type="text/css" href="/libs/tooltipster/css/tooltipster.bundle.min.css" />
@@ -485,8 +485,8 @@ if (isset($_GET['utm_source'])) {
                     <img class="logo-img" src="img/logo.png" width="81" height="73" alt="Логотип">
                 </div>
                 <div class="header-logo-text">
-                    <h1>Продажа минитракторов<br>с доставкой по России </h1>
-                    <span>Центр Технического Оборудования</span>
+                    <h1 style="margin-left: 175px;">Продажа минитракторов<br>с доставкой по России </h1>
+						<span style="margin-left: 70px;">Центр Технического Оборудования</span>
                 </div>
             </div>
             <div class="col-md-3 col-sm-3 col-xs-6 header-city">
@@ -594,7 +594,7 @@ if (isset($_GET['utm_source'])) {
             </div>
 
             <div class="col-md-8 col-sm-9 col-xs-9 section-block-text block-text-1">
-                <h3>Райдеры, садовые минитракторы<br>для уборки снега<br><span>90 моделей</span> от <span>123 900 рублей</span></h3>
+                <h3>Райдеры, садовые минитракторы<br>для уборки снега<br><span>90 моделей</span> от <span>129 900 рублей</span></h3>
                 <p>Получи подробные характеристики, фотографии и цены на весь модельный<br>ряд райдеров, садовых минитракторов для уборки снега</p>
             </div>
         </div>
@@ -636,7 +636,7 @@ if (isset($_GET['utm_source'])) {
 <div class="container section-string-form">
     <div class="row" id="gruzovoy_shinomontazh">
         <div class="col-md-8 col-sm-9 col-xs-9 section-block-text block-text-1">
-            <h3>Минитракторы с кабиной<br>в наличии<span> 31 модель</span> от <span>399 900 рублей</span></h3>
+            <h3>Минитракторы с кабиной<br>в наличии<span> 31 модель</span> от <span>389 900 рублей</span></h3>
             <p>Получи подробные характеристики, фотографии и цены на весь модельный<br>ряд минитракторов с кабиной</p>
         </div>
         <div class="col-md-4 col-sm-3 col-xs-3 cat-img-2-box">
@@ -675,7 +675,7 @@ if (isset($_GET['utm_source'])) {
             </div>
 
             <div class="col-md-8 col-sm-9 col-xs-9 section-block-text block-text-1">
-                <h3>Минитракторы без кабины<br>в наличии <span>58 моделей </span>от <span>125 900 рублей</span></h3>
+                <h3>Минитракторы без кабины<br>в наличии <span>58 моделей </span>от <span>129 900 рублей</span></h3>
                 <p>Получи подробные характеристики, фотографии и цены на весь модельный<br>ряд минитракторов без кабины</p>
             </div>
         </div>
@@ -734,6 +734,7 @@ if (isset($_GET['utm_source'])) {
                 </div>
                 <div class="triangle-topleft" style="display: none"></div>
             </div>
+<div class="compliance" style="text-align:left; margin-top:-10%; margin-bottom:5%; font-size:9px; font-weight:300;"><a href="#openModal3" target="_self" style="color:#D3D3D3; text-decoration: underline;">Нажимая кнопку, вы даете согласие на обработку персональных данных</a></div>
         </div>
     </div>
 </div>
@@ -748,30 +749,30 @@ if (isset($_GET['utm_source'])) {
             </div>
         </div>
 
-        <div class="row brand-string">
+                <div class="row brand-string">
             <div class="col-md-2 col-sm-2 col-xs-2 col-md-offset-1">
                 <div class="brand-img">
-                    <img src="img/brand_img_1.png" width="145" class="brand-img-1" alt="">
+                   <a href="#openModal_3" onClick=CatNameChanger3("авант")><img src="img/brand_img_1.png" width="145" class="brand-img-1" alt=""></a>
                 </div>
             </div>
             <div class="col-md-2 col-sm-2 col-xs-2">
                 <div class="brand-img">
-                    <img src="img/brand_img_2.png" class="brand-img-1" width="145;" alt="">
+                    <a href="#openModal_3" onClick=CatNameChanger3("branson")><img src="img/brand_img_2.png" class="brand-img-1" width="145;" alt=""></a>
                 </div>
             </div>
             <div class="col-md-2 col-sm-2 col-xs-2">
                 <div class="brand-img">
-                    <img src="img/brand_img_3.png" class="brand-img-3" width="145" alt="">
+                    <a href="#openModal_3" onClick=CatNameChanger3("bulat")><img src="img/brand_img_3.png" class="brand-img-3" width="145" alt=""></a>
                 </div>
             </div>
             <div class="col-md-2 col-sm-2 col-xs-2">
                 <div class="brand-img">
-                    <img src="img/brand_img_4.png" class="brand-img-4" width="145" alt="">
+                    <a href="#openModal_3" onClick=CatNameChanger3("jinma")><img src="img/brand_img_4.png" class="brand-img-4" width="145" alt=""></a>
                 </div>
             </div>
             <div class="col-md-2 col-sm-2 col-xs-2">
                 <div class="brand-img">
-                    <img src="img/brand_img_5.png" class="brand-img-5" width="145" alt="">
+                    <a href="#openModal_3" onClick=CatNameChanger3("dongfeng")><img src="img/brand_img_5.png" class="brand-img-5" width="145" alt=""></a>
                 </div>
             </div>
 
@@ -779,27 +780,27 @@ if (isset($_GET['utm_source'])) {
         <div class="row brand-string-1">
             <div class="col-md-2 col-sm-2 col-xs-2 col-md-offset-1">
                 <div class="brand-img">
-                    <img src="img/brand_img_6.png" class="brand-img-5" width="145" alt="">
+                    <a href="#openModal_3" onClick=CatNameChanger3("mitsubishi")><img src="img/brand_img_6.png" class="brand-img-5" width="145" alt=""></a>
                 </div>
             </div>
             <div class="col-md-2 col-sm-2 col-xs-2">
                 <div class="brand-img">
-                    <img src="img/brand_img_7.png" width="145" class="brand-img-1" alt="">
+                    <a href="#openModal_3" onClick=CatNameChanger3("русич")><img src="img/brand_img_7.png" width="145" class="brand-img-1" alt=""></a>
                 </div>
             </div>
             <div class="col-md-2 col-sm-2 col-xs-2">
                 <div class="brand-img">
-                    <img src="img/brand_img_8.png" class="brand-img-1" width="145" alt="">
+                    <a href="#openModal_3" onClick=CatNameChanger3("скаут")><img src="img/brand_img_8.png" class="brand-img-1" width="145" alt=""></a>
                 </div>
             </div>
             <div class="col-md-2 col-sm-2 col-xs-2">
                 <div class="brand-img">
-                    <img src="img/brand_img_9.png" class="brand-img-3" width="145" alt="">
+                    <a href="#openModal_3" onClick=CatNameChanger3("уралец")><img src="img/brand_img_9.png" class="brand-img-3" width="145" alt=""></a>
                 </div>
             </div>
             <div class="col-md-2 col-sm-2 col-xs-2">
                 <div class="brand-img">
-                    <img src="img/brand_img_10.png" class="brand-img-4" width="145" alt="">
+                    <a href="#openModal_3" onClick=CatNameChanger3("fighter")><img src="img/brand_img_10.png" class="brand-img-4" width="145" alt=""></a>
                 </div>
             </div>
 
@@ -808,27 +809,27 @@ if (isset($_GET['utm_source'])) {
         <div class="row brand-string-2" style="margin-top:55px;">
             <div class="col-md-2 col-sm-2 col-xs-2 col-md-offset-1">
                 <div class="brand-img">
-                    <img src="img/brand_img_11.png" class="brand-img-5" width="145" alt="">
+                    <a href="#openModal_3" onClick=CatNameChanger3("foton")><img src="img/brand_img_11.png" class="brand-img-5" width="145" alt=""></a>
                 </div>
             </div>
             <div class="col-md-2 col-sm-2 col-xs-2">
                 <div class="brand-img">
-                    <img src="img/brand_img_12.png" class="brand-img-5" width="145" alt="">
+                    <a href="#openModal_3" onClick=CatNameChanger3("xingtai")><img src="img/brand_img_12.png" class="brand-img-5" width="145" alt=""></a>
                 </div>
             </div>
             <div class="col-md-2 col-sm-2 col-xs-2 ">
                 <div class="brand-img">
-                    <img src="img/brand_img_13.png" class="brand-img-4" width="145" alt="">
+                    <a href="#openModal_3" onClick=CatNameChanger3("chery")><img src="img/brand_img_13.png" class="brand-img-4" width="145" alt=""></a>
                 </div>
             </div>
             <div class="col-md-2 col-sm-2 col-xs-2 text-center">
                 <div class="brand-img">
-                    <img src="img/brand_img_14.png" class="brand-img-5" width="145" alt="">
+                    <a href="#openModal_3" onClick=CatNameChanger3("чувашпиллер")><img src="img/brand_img_14.png" class="brand-img-5" width="145" alt=""></a>
                 </div>
             </div>
             <div class="col-md-2 col-sm-2 col-xs-2 text-center">
                 <div class="brand-img">
-                    <img src="img/brand_img_15.png" class="brand-img-5" width="145" alt="">
+                    <a href="#openModal_3" onClick=CatNameChanger3("shifeng")><img src="img/brand_img_15.png" class="brand-img-5" width="145" alt=""></a>
                 </div>
             </div>
         </div>
@@ -865,7 +866,7 @@ if (isset($_GET['utm_source'])) {
     </div>
 </div>
 
-<div class="container section-string-form">
+<!--<div class="container section-string-form">
     <div class="row">
         <div class="col-md-12 section-title section-title-2">
             <h2><span>ЛИДЕР ПРОДАЖ</span></h2>
@@ -914,28 +915,27 @@ if (isset($_GET['utm_source'])) {
 
         </div>
     </div>
-</div>
+</div>-->
 
-
-<div class="container section-string-form">
+  <div class="container section-string-form">
     <div class="row">
         <div class="col-md-12 section-title section-title-2">
-            <h2><span>комплект "скаут с отвалом"</span></h2>
+        
         </div>
         <div class="row">
             <div class="col-md-12">
-                <img src="img/econom.png" width="50%" style="margin-left: 285px;" style="text-align:center;">
+                <img src="img/3procenta.png" width="35%" style="margin-left: 370px;" style="text-align:center;">
             </div>
         </div>
 
 
-        <h4><p style="text-align:center; font-size:25px;">МИНИТРАКТОР "СКАУТ Т-15" С ПОЧВОФРЕЗОЙ + ОТВАЛ ГИДРАВЛИЧЕСКИЙ</p></h4>
+        <h4><p style="text-align:center; font-size:25px;">ПРИ ПОКУПКЕ В ДЕНЬ ОБРАЩЕНИЯ СКИДКА 3% НА МИНИТРАКТОРЫ*</p></h4>
     </div>
     <div class="row">
         <div class="col-md-12 ">
             <div class="form-catalog-wrap" style="margin-bottom:10%">
                 <div class="form-catalog-left" style="background:#fe475a">
-                    <form method="post" action="/sender/send.php" class="sform" id="form_8" onsubmit="yaCounter44830108.reachGoal('cel10'); return true;"><span style="font-size:24px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:20%;">Узнайте ваше акционное предложение у менеджера</span><strong><span style="font-size:35px; color:yellow;"></span>
+                    <form method="post" action="/sender/send.php" class="sform" id="form_8" onsubmit="yaCounter44830108.reachGoal('cel22'); return true;"><span style="font-size:24px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:28%;">*Подробности уточняйте у менеджера</span><strong><span style="font-size:35px; color:yellow;"></span>
 
                         <p style="margin-top:-5px">оставь свое имя и телефон, чтобы получить комплект по специальной цене <span style="font-size:35px;"></span></p>
                         <input type="hidden" name="subject" value="минитрактор">
@@ -966,19 +966,22 @@ if (isset($_GET['utm_source'])) {
     </div>
 </div>
 
+
+
+
 <div class="container section-string-form">
     <div class="row">
         <div class="col-md-12 section-title section-title-2">
-            <h2><span>комплект "русич с отвалом"</span></h2>
+            <h2><font color="#B11618">Акция на минитрактор<br> с клиноременной передачей</font></h2>
         </div>
         <div class="row">
             <div class="col-md-12">
-                <img src="img/medium.png" width="50%" style="margin-left: 285px;" style="text-align:center;">
+                <img src="img/medium.jpg" width="28%" style="margin-left: 395px;" style="text-align:center;">
             </div>
         </div>
 
 
-        <h4><p style="text-align:center; font-size:25px;">МИНИТРАКТОР "РУСИЧ T-21" + ОТВАЛ С ГИДРОЦИЛИНДРОМ</p></h4>
+        <h4><p style="text-align:center; font-size:25px;">ПРЕДПРОДАЖНАЯ ПОДГОТОВКА + КОМПЛЕКТ ТО</p></h4>
     </div>
     <div class="row">
         <div class="col-md-12 ">
@@ -1016,22 +1019,22 @@ if (isset($_GET['utm_source'])) {
 <div class="container section-string-form">
     <div class="row">
         <div class="col-md-12 section-title section-title-2">
-            <h2><span>комплект "уралец с отвалом"</span></h2>
+            <h2><font color="#B11618">комплект "уралец с почвофрезой"</font></h2>
         </div>
         <div class="row">
             <div class="col-md-12">
-                <img src="img/premium.png" width="50%" style="margin-left: 285px;" style="text-align:center;">
+                <img src="img/premium.png" width="65%" style="margin-left: 175px;" style="text-align:center;">
             </div>
         </div>
 
 
-        <h4><p style="text-align:center; font-size:25px;">МИНИТРАКТОР "УРАЛЕЦ 220Б 4х4" + ОТВАЛ СНЕГОУБОРОЧНЫЙ</p></h4>
+        <h4><p style="text-align:center; font-size:25px;">МИНИТРАКТОР "УРАЛЕЦ 220Б 4х4" + ПОЧВОФРЕЗА 1GQN-120</p></h4>
     </div>
     <div class="row">
         <div class="col-md-12 ">
             <div class="form-catalog-wrap" style="margin-bottom:10%">
                 <div class="form-catalog-left" style="background:#fe475a">
-                    <form method="post" action="/sender/send.php" class="sform" id="form_10" onsubmit="yaCounter44830108.reachGoal('cel12'); return true;"><span style="font-size:24px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:20%;">Узнайте ваше акционное предложение у менеджера</span><strong><span style="font-size:35px; color:yellow;"></span> 
+                    <form method="post" action="/sender/send.php" class="sform" id="form_10" onsubmit="yaCounter44830108.reachGoal('cel12'); return true;"><span style="font-size:24px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:27%;">цена со скидкой 414900, экономия 4900</span><strong><span style="font-size:35px; color:yellow;"></span> 
 
                         <p style="margin-top:-5px">оставь свое имя и телефон, чтобы получить комплект по специальной цене <span style="font-size:35px;"></span></p>
                         <input type="hidden" name="subject" value="Минитрактора. Оставьте ваши имя и телефон, чтобы получить каталог">
@@ -1063,16 +1066,16 @@ if (isset($_GET['utm_source'])) {
 <div class="container section-string-form">
     <div class="row">
         <div class="col-md-12 section-title section-title-2">
-            <h2><span>комплект "донгфег с фронтальным погрузчиком"</span></h2>
+            <h2><font color="#B11618">Акция на "плуг" и "почвофрезу"</font></h2>
         </div>
         <div class="row">
             <div class="col-md-12">
-                <img src="img/vip.png" width="50%" style="margin-left: 285px;" style="text-align:center;">
+                <img src="img/vip.png" width="37%" style="margin-left: 305px;" style="text-align:center;">
             </div>
         </div>
 
 
-        <h4><p style="text-align:center; font-size:25px;">DONGFENG DF 244C, ГУ, ДОП. ГИДРОВЫХОДЫ + ФРОНТАЛЬНЫЙ ПОГРУЗЧИК FEL-250</p></h4>
+        <h4><p style="text-align:center; font-size:25px;">ПРИ ПОКУПКЕ МИНИТРАКТОРА - ПЛУГ ИЛИ ПОЧВОФРЕЗА ПО ОПТОВОЙ ЦЕНЕ</p></h4>
     </div>
     <div class="row">
         <div class="col-md-12 ">
@@ -1103,6 +1106,55 @@ if (isset($_GET['utm_source'])) {
                 <br>
             </div>
             <div class="compliance" style="text-align:right; margin-top:-12%; margin-bottom:5%; font-size:9px; font-weight:300;"><a href="#openModal3" target="_self" style="color:#D3D3D3; text-decoration: underline;">Нажимая кнопку, вы даете согласие на обработку персональных данных</a></div>
+        </div>
+    </div>
+</div>
+
+<div class="container section-string-form">
+    <div class="row">
+        <div class="col-md-12 section-title section-title-2">
+            <h2><font color="#B11618">комплект "скаут с отвалом"</font></h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <img src="img/econom.png" width="73%" style="margin-left: 145px;" style="text-align:center;">
+            </div>
+        </div>
+
+
+        <h4><p style="text-align:center; font-size:25px;">МИНИТРАКТОР "СКАУТ Т-15" + ОТВАЛ ГИДРАВЛИЧЕСКИЙ</p></h4>
+    </div>
+    <div class="row">
+        <div class="col-md-12 ">
+            <div class="form-catalog-wrap" style="margin-bottom:10%">
+                <div class="form-catalog-left" style="background:#fe475a">
+                    <form method="post" action="/sender/send.php" class="sform" id="form_8" onsubmit="yaCounter44830108.reachGoal('cel10'); return true;"><span style="font-size:24px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:28%;">В подарок цепи противоскольжения</span><strong><span style="font-size:35px; color:yellow;"></span>
+
+                        <p style="margin-top:-5px">оставь свое имя и телефон, чтобы получить комплект по специальной цене <span style="font-size:35px;"></span></p>
+                        <input type="hidden" name="subject" value="минитрактор">
+                        <input class="input-text input-name input-string-form-left" type="text" name="name" placeholder="Имя">
+                        <input class="input-text input-phone input-string-form phone-mask"  maxlength="18" type="text" name="phone" placeholder="Телефон*" required">
+                        <input class="input-text input-email input-string-form input-string-form-3" type="email" name="email" placeholder="Почта">
+                        <div class="alert_on" id="phone_bottom_3"></div>
+                        <span style="font-size:19px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:5%;"></span><strong><span style="font-size:35px; color:yellow;"></span></strong><br>
+                        <div class="alert_on" id="phone_bottom_3"></div>
+
+                        <div class="wrap-form-btn btn-position-center2">
+                            <input class="form-button form-2-btn" type="submit" name="catalog" value="Получить">
+
+
+                        </div>
+                        <input type="hidden" name="typsh" value="минитрактор">
+
+                    </form>
+
+                </div>
+                <br>
+                <br>
+                <br>
+            </div>
+            <div class="compliance" style="text-align:right; margin-top:-12%; margin-bottom:5%; font-size:9px; font-weight:300;"><a href="#openModal3" target="_self" style="color:#D3D3D3; text-decoration: underline;">Нажимая кнопку, вы даете согласие на обработку персональных данных</a></div>
+
         </div>
     </div>
 </div>
@@ -1167,7 +1219,7 @@ if (isset($_GET['utm_source'])) {
                             <a href="#" class="nextBtn"><img src="img/arrow-point-to-r.png" width="70" alt=""></a>
                             <div class="wrap-name-manager"><img src="img/Rectangle-7.png" width="387" alt=""></div>
                             <div class="SimSlider">
-                                <div class="slide sl-0">
+                                 <div class="slide sl-0">
                                     <img src="img/igor.jpg" width="363" alt="">
                                     <div class="name-manager">
                                         <span>Игорь Скворцов</span>
@@ -1179,7 +1231,13 @@ if (isset($_GET['utm_source'])) {
                                         <span>Артур Артеев</span>
                                     </div>
                                 </div>
-                                <div class="slide sl-2">
+                              <!--  <div class="slide sl-2">
+                                    <img src="img/vasya.JPG" width="363" alt="">
+                                    <div class="name-manager">
+                                        <span>Василий Чепцов</span>
+                                    </div>
+                                </div>-->
+                                <div class="slide sl-3">
                                     <img src="img/bolotnikov.jpg" width="363" height="404" alt="">
                                     <div class="name-manager">
                                         <span>Антон Болотников</span>
@@ -1187,12 +1245,12 @@ if (isset($_GET['utm_source'])) {
                                 </div>
 
 
-                                <div class="slide sl-4">
+                                <!--<div class="slide sl-4">
                                     <img src="img/shumakova.jpg" width="363" height="404" alt="">
                                     <div class="name-manager">
                                         <span>Кристина Шумакова</span>
                                     </div>
-                                </div>
+                                </div>-->
                                 <div class="slide sl-5">
                                     <img src="img/ilya.jpg" width="363" alt="">
                                     <div class="name-manager">
@@ -1211,6 +1269,18 @@ if (isset($_GET['utm_source'])) {
                                         <span>Евгений Колотов</span>
                                     </div>
                                 </div>
+                                <div class="slide sl-8">
+                                    <img src="img/aleksandr.JPG" width="363" height="" alt="">
+                                    <div class="name-manager">
+                                        <span>Александр Панин</span>
+                                    </div>
+                                </div>
+                              <div class="slide sl-8">
+											<img src="img/elena.JPG" width="363" height="" alt="">
+											<div class="name-manager">
+											<span>Елена Любимова</span>
+									</div>
+								</div>
                             </div>
                         </div>
                     </div>
@@ -1861,6 +1931,32 @@ if (isset($_GET['utm_source'])) {
     </div>
 </div>
 
+<div id="openModal_3" class="modalDialog">
+    <div>
+        <a href="#close" title="Close" class="close"><span></span></a>
+        <div class="modal-box">
+            <h4>Оставь имя и телефон<br/>и получи каталог</br>минитракторов <span id="catalogName3"></span></h4>
+            <form method="post" action="/sender/send.php" id="form_18" class="sform" onsubmit="yaCounter44830108.reachGoal('cel21'); return true;">
+                <input type="hidden" id="ya-city" value="">
+                <input type="hidden" name="subject" value="Оставьте имя и телефон и получите каталог">
+                <input type="hidden" name="catName3" id="cNameId3" value="">
+                <div class="wrap-input-name-price">
+                    <input class="input-text input-modal" type="text" name="name" placeholder="Ваше имя">
+                </div>
+                <div class="wrap-input-telephone-price">
+                    <input class="input-text input-modal phone-mask" id="inputf14" maxlength="18" type="text" name="phone" placeholder="Ваш телефон" required">
+                </div>
+                <div class="alert_on alert_on_modal" id="phone_bottom_14"></div>
+                <div class="wrapper-button">
+                    <input class="form-button form-1-btn btn-color-2 btn-modal" type="submit" name="submit" value="Скачать каталог">
+                    <div class="compliance" style="margin-top:-5%;font-size:9px;"><a href="#openModal3" target="_self" style="color:#D3D3D3;">Нажимая кнопку, вы даете согласие на обработку персональных данных</a></div>
+                </div>
+                <input type="hidden" name="typsh" value="минитрактор">
+            </form>
+        </div>
+    </div>
+</div>
+
 
 <div id="openModal_econom" class="modalDialog">
     <div>
@@ -2134,7 +2230,7 @@ if (isset($_GET['utm_source'])) {
     }
 
 </script>
-<script src="/sender/js/sender1.js"></script>
+<script src="/sender/js/sender.js?rnd=<?= uniqid() ?>"></script>
 <script src="js/common1.js"></script>
 <script src="/js/leads.catcher.js" async></script>
 
@@ -2193,6 +2289,11 @@ if (isset($_GET['utm_source'])) {
     </div>
 </noscript>
 <!-- //Rating@Mail.ru counter -->
-
+<link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
+<script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?wcb_code=faecc43be153cc599dc0b5c99ffd0f8a" charset="UTF-8" async></script>
+<!-- Кнопка вверх -->
+<a style="display:scroll;position:fixed;bottom:15px;right:15px;" href="#" title="Вверх"> 
+<img border="0" alt="Back to TOP"  src = "http://static.oldiconsearch.ru/uploads/icons/humano2/48x48/go-up.png"/></a>
+<!-- Кнопка вверх -->
 </body>
 </html>
