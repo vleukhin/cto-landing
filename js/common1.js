@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
     $('.regionCity').click(function (e) {
         e.preventDefault();
         $('.city-p').text($(this).text())
@@ -43,27 +44,6 @@ $(document).ready(function () {
     $('#search-city').autocomplete({
         source: 'city.php',
         minLength: 2
-    });
-
-    $('body').delegate('[type="submit"]', 'click', function () {
-        var form = $(this).closest('form');
-        var field = form.find('[name=phone]');
-        var phone = field.val();
-
-        if (!validPhone(phone)) {
-            field.attr('title', 'Номер введен некорректно!');
-
-            if (!field.hasClass('tooltipstered')) {
-                field.tooltipster();
-            }
-
-            field.tooltipster('open');
-            field.focus();
-
-            return false;
-        }
-
-        return true;
     });
 });
 
@@ -150,14 +130,6 @@ function CatNameChanger2(catName2) {
 
 }
 
-function CatNameChanger3(catName3) {
-    var modalText = document.getElementById("catalogName3");
-    var cNameInputValue = document.getElementById("cNameId3");
-    modalText.innerHTML = catName3;
-    cNameInputValue.value = catName3;
-
-}
-
 function CalcFieldChecker(e) {
     //var eAttr = e.getAttribute("id");
 
@@ -193,7 +165,6 @@ function CalcFieldChecker(e) {
     }
 
 }
-
 
 $('#select_col_1 *').filter(':input').each(function () {
     if ($(this).attr('disabled') == "disabled") {

@@ -4,3 +4,5 @@
 out
 gen
 .env
+quiz/group.log
+.DS_Store
