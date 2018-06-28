@@ -28,7 +28,6 @@
         'pogruz' => [
             'вилочный.погрузчик5.рф' => 'subdomains/xn--b1amdhkf7d7a/httpdocs',
         ],
-
     ];
 @endsetup
 

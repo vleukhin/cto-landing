@@ -1,4 +1,4 @@
-<div id="quiz" class="quiz">
+<div id="quiz" class="quiz" v-cloak>
 	<div v-for="(step, index) in quiz.steps" v-show="currentStep == index" class="quiz-step">
 		<h2 v-html="quiz.name" class="quiz-step__title"></h2>
 		<p v-html="step.text" class="quiz-step__text"></p>
@@ -46,7 +46,7 @@
 		</div>
 
 		<div v-if="step.type == 'leadForm'">
-			<form action="/sender/send.php" class="sform">
+			<form action="/sender/send.php" class="sform" :onsubmit="'yaCounter41896804.reachGoal(\'' + step.goal + '\'); return true;'">
                 <input type="hidden" name="subject" :value="quiz.subject">
 				<div v-for="(input, name) in step.form">
 					<label for="">{{ input.label }}</label>
@@ -145,6 +145,7 @@
                     title: 'Спасибо за ответы!',
                     text: 'Мы подготовили для Вас 2 варианта <br/> комплекта шиномонтажного оборудования',
                     type: 'leadForm',
+                    goal: 'cel21',
                     form: {
                         name: {
                             type: 'text',
@@ -220,6 +221,7 @@
                     title: 'Спасибо за ответы!',
                     text: 'Мы подготовили для Вас 2 варианта <br/> комплекта шиномонтажного оборудования',
                     type: 'leadForm',
+                    goal: 'cel22',
                     form: {
                         name: {
                             type: 'text',

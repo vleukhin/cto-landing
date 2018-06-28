@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&subset=cyrillic');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=cyrillic');
 iframe{border:0}
+[v-cloak]{display: none;}
 .modal-body{padding:15px 74px}
 .modal-body .input-text{border:1px solid #000}
 .row{padding:0}

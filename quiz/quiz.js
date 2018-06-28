@@ -111,11 +111,7 @@ var quiz = new Vue({
                     }.bind(this));
                     break;
                 case 'radio':
-                    /**
-                     * Условие в начале функции ловит не выбранный пункт
-                     * так что тут уже можно возвращать true
-                     */
-                    result = true;
+                    result = typeof this.answers[stepIndex] === 'string';
                     break;
                 case 'form':
                     result = true;
