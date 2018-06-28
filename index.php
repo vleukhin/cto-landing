@@ -892,62 +892,53 @@ if (isset($_GET['utm_source'])) {
                             <div class="wrap-name-manager"><img src="img/Rectangle-7.png" width="387" alt=""></div>
                             <div class="SimSlider">
                                  <div class="slide sl-0">
-                                    <img src="img/igor.jpg" width="363" alt="">
+                                    <img src="img/managers/igor.jpg" width="363" alt="">
                                     <div class="name-manager">
                                         <span>Игорь Скворцов</span>
                                     </div>
                                 </div>
                                 <div class="slide sl-1">
-                                    <img src="img/artur.jpg" width="363" alt="">
+                                    <img src="img/managers/artur.jpg" width="363" alt="">
                                     <div class="name-manager">
                                         <span>Артур Артеев</span>
                                     </div>
                                 </div>
-                              <!--  <div class="slide sl-2">
-                                    <img src="img/vasya.JPG" width="363" alt="">
-                                    <div class="name-manager">
-                                        <span>Василий Чепцов</span>
-                                    </div>
-                                </div>-->
-                                <div class="slide sl-3">
-                                    <img src="img/bolotnikov.jpg" width="363" height="404" alt="">
-                                    <div class="name-manager">
-                                        <span>Антон Болотников</span>
-                                    </div>
-                                </div>
-
-
-                                <!--<div class="slide sl-4">
-                                    <img src="img/shumakova.jpg" width="363" height="404" alt="">
-                                    <div class="name-manager">
-                                        <span>Кристина Шумакова</span>
-                                    </div>
-                                </div>-->
-                                <div class="slide sl-5">
-                                    <img src="img/ilya.jpg" width="363" alt="">
-                                    <div class="name-manager">
-                                        <span>Илья Онищенко</span>
-                                    </div>
-                                </div>
-                                <div class="slide sl-6">
-                                    <img src="img/koptelov.jpg" width="363" height="404" alt="">
-                                    <div class="name-manager">
-                                        <span>Сергей Коптелов</span>
-                                    </div>
-                                </div>
-                                
-                                <div class="slide sl-8">
-                                    <img src="img/aleksandr.JPG" width="363" height="" alt="">
+                                <div class="slide sl-2">
+                                    <img src="img/managers/aleksandr.JPG" width="363" height="" alt="">
                                     <div class="name-manager">
                                         <span>Александр Панин</span>
                                     </div>
                                 </div>
-                              <div class="slide sl-8">
-											<img src="img/elena.JPG" width="363" height="" alt="">
-											<div class="name-manager">
-											<span>Елена Любимова</span>
-									</div>
-								</div>
+                                <div class="slide sl-3">
+                                    <img src="img/managers/manager1.jpg" width="363" height="" alt="">
+                                    <div class="name-manager">
+                                        <span>Александр Таланов</span>
+                                    </div>
+                                </div>
+                                <div class="slide sl-4">
+                                    <img src="img/managers/manager2.jpg" width="363" height="" alt="">
+                                    <div class="name-manager">
+                                        <span>Кирилл Смирнов</span>
+                                    </div>
+                                </div>
+                                <div class="slide sl-5">
+                                    <img src="img/managers/manager3.jpg" width="363" height="" alt="">
+                                    <div class="name-manager">
+                                        <span>Екатерина Ерандаева</span>
+                                    </div>
+                                </div>
+                                <div class="slide sl-6">
+                                    <img src="img/managers/manager4.jpg" width="363" height="" alt="">
+                                    <div class="name-manager">
+                                        <span>Богдан Пузырев</span>
+                                    </div>
+                                </div>
+                                <div class="slide sl-7">
+                                    <img src="img/managers/manager5.jpg" width="363" height="" alt="">
+                                    <div class="name-manager">
+                                        <span>Михаил Мерзляков</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
