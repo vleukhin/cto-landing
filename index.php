@@ -1,6 +1,7 @@
 <?php
 
 include('./utm.php');
+require ('./sender/vendor/autoload.php');
 
 $campagns_arr = [
     '20881940' => 0
@@ -567,7 +568,10 @@ if (isset($_GET['utm_source'])) {
                     <div class="wrap-form-btn">
                         <input class="form-button form-1-btn" type="submit" name="full_catalog" value="Получи полный каталог">
 
-                        <div class="compliance" style="font-size:9px; font-weight:300; margin-top:-5%;"><a href="#openModal3" target="_self" style="color:#D3D3D3; text-decoration: underline;">Нажимая кнопку, вы даете согласие на обработку персональных данных</a></div>
+                        <div class="compliance" style="font-size:9px; font-weight:300; margin-top:-5%;">
+							<input type="checkbox" checked onclick="document.querySelector('#' + this.closest('form').id + ' [type=submit]').disabled = !this.checked">
+							<a href="#openModal3" target="_self" style="color:#D3D3D3; text-decoration: underline;">Нажимая кнопку, вы даете согласие на обработку персональных данных</a>
+						</div>
                     </div>
 
                     <input type="hidden" name="typsh" value="минитрактор">
@@ -576,8 +580,6 @@ if (isset($_GET['utm_source'])) {
         </div>
     </div>
 </div>
-
-<?php include './quiz/quiz.php' ?>
 
 <div class="wrap-section-string-form">
     <div class="container section-string-form">
@@ -2135,7 +2137,6 @@ if (isset($_GET['utm_source'])) {
 <script src="/sender/js/sender.js"></script>
 <script src="/js/leads.catcher.js" async></script>
 <script src="/js/common1.js"></script>
-<script src="/quiz/quiz.js"></script>
 
 <!— Facebook Pixel Code —>
 <script>
