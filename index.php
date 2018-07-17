@@ -753,11 +753,62 @@ if (isset($_GET['utm_source'])) {
 	<div class="container section-string-form">
 		<div class="row">
 			<div class="col-md-12 section-title section-title-2">
-				<h2><font color="#B11618">Акция на минитрактор<br> с клиноременной передачей</font></h2>
+				<h2><span style="color:#B11618">Скаут + плуг в подарок</span></h2>
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<img src="img/medium.jpg" width="28%" style="margin-left: 395px;" style="text-align:center;">
+					<img src="img/econom.png" width="73%" style="margin-left: 145px;" style="text-align:center;">
+				</div>
+			</div>
+
+
+			<h4><p style="text-align:center; font-size:25px;">МИНИТРАКТОР "СКАУТ" + ПЛУГ В ПОДАРОК</p></h4>
+		</div>
+		<div class="row">
+			<div class="col-md-12 ">
+				<div class="form-catalog-wrap" style="margin-bottom:10%">
+					<div class="form-catalog-left" style="background:#fe475a">
+						<form method="post" action="/sender/send.php" class="sform" id="form_8" onsubmit="yaCounter44830108.reachGoal('cel10'); return true;">
+							<span style="font-size:24px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:20%;">Узнайте ваше акционное предложение у менеджера</span><strong><span style="font-size:35px; color:yellow;"></span>
+
+								<p style="margin-top:-5px">оставь свое имя и телефон, чтобы получить комплект по специальной цене <span style="font-size:35px;"></span></p>
+								<input type="hidden" name="subject" value="минитрактор">
+								<input class="input-text input-name input-string-form-left" type="text" name="name" placeholder="Имя">
+								<input class="input-text input-phone input-string-form phone-mask" maxlength="18" type="text" name="phone" placeholder="Телефон*" required">
+								<input class="input-text input-email input-string-form input-string-form-3" type="email" name="email" placeholder="Почта">
+								<div class="alert_on" id="phone_bottom_3"></div>
+								<span style="font-size:19px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:5%;"></span><strong><span style="font-size:35px; color:yellow;"></span></strong><br>
+								<div class="alert_on" id="phone_bottom_3"></div>
+
+								<div class="wrap-form-btn btn-position-center2">
+									<input class="form-button form-2-btn" type="submit" name="catalog" value="Получить">
+									<div class="compliance" style="font-size:9px; font-weight:300; margin-bottom:-10%;">
+										<input type="checkbox" checked onclick="document.querySelector('#' + this.closest('form').id + ' [type=submit]').disabled = !this.checked" style="margin-left:-30px"><a href="#openModal3" target="_self" style="color:#383838; text-decoration: underline;">Нажимая кнопку "Получить", вы даете согласие на обработку персональных данных</a></div>
+
+
+								</div>
+								<input type="hidden" name="typsh" value="минитрактор">
+
+						</form>
+
+					</div>
+					<br>
+					<br>
+					<br>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="container section-string-form">
+		<div class="row">
+			<div class="col-md-12 section-title section-title-2">
+				<h2><span style="color:#B11618">Трактор с прямым приводом + скидка на навесное оборудование</span></h2>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<img src="img/special-offers/b8f0ad067665d17bf9b319102aa478da.png" width="28%" style="margin-left: 395px;" style="text-align:center;">
 				</div>
 			</div>
 
@@ -800,16 +851,16 @@ if (isset($_GET['utm_source'])) {
 	<div class="container section-string-form">
 		<div class="row">
 			<div class="col-md-12 section-title section-title-2">
-				<h2><font color="#B11618">комплект "уралец с почвофрезой"</font></h2>
+				<h2><span style="color:#B11618">Косилки и грабли со скидкой</span></h2>
 			</div>
 			<div class="row">
-				<div class="col-md-12">
-					<img src="img/premium.png" width="65%" style="margin-left: 175px;" style="text-align:center;">
+				<div class="col-md-6">
+					<img src="img/special-offers/ed79611b0c3195dd88884f9300996842.png" width="65%" style="margin-left: 175px; text-align:center;">
+				</div>
+				<div class="col-md-6">
+					<img src="img/special-offers/geo.png" width="65%" style="text-align:center;">
 				</div>
 			</div>
-
-
-			<h4><p style="text-align:center; font-size:25px;">МИНИТРАКТОР "УРАЛЕЦ 220Б 4х4" + ПОЧВОФРЕЗА 1GQN-120</p></h4>
 		</div>
 		<div class="row">
 			<div class="col-md-12 ">
@@ -849,16 +900,13 @@ if (isset($_GET['utm_source'])) {
 	<div class="container section-string-form">
 		<div class="row">
 			<div class="col-md-12 section-title section-title-2">
-				<h2><font color="#B11618">Акция на навесное оборудование</font></h2>
+				<h2><span style="color:#B11618">Скаут + отвал со скидкой 13 %</span></h2>
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<img src="img/vip.png" width="37%" style="margin-left: 305px;" style="text-align:center;">
+					<img src="img/special-offers/682d59d7a15fe6d8b5ea98b69d8efccf.jpeg" width="37%" style="margin-left: 305px;" style="text-align:center;">
 				</div>
 			</div>
-
-
-			<h4><p style="text-align:center; font-size:25px;">ПРИ ПОКУПКЕ МИНИТРАКТОРА - НАВЕСНОЕ ОБОРУДОВАНИЕ ПО ОПТОВОЙ ЦЕНЕ</p></h4>
 		</div>
 		<div class="row">
 			<div class="col-md-12 ">
@@ -891,57 +939,6 @@ if (isset($_GET['utm_source'])) {
 					<br>
 					<br>
 				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="container section-string-form">
-		<div class="row">
-			<div class="col-md-12 section-title section-title-2">
-				<h2><font color="#B11618">комплект "скаут с плугом"</font></h2>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<img src="img/econom.png" width="73%" style="margin-left: 145px;" style="text-align:center;">
-				</div>
-			</div>
-
-
-			<h4><p style="text-align:center; font-size:25px;">МИНИТРАКТОР "СКАУТ" + ПЛУГ СО СКИДКОЙ 50%</p></h4>
-		</div>
-		<div class="row">
-			<div class="col-md-12 ">
-				<div class="form-catalog-wrap" style="margin-bottom:10%">
-					<div class="form-catalog-left" style="background:#fe475a">
-						<form method="post" action="/sender/send.php" class="sform" id="form_8" onsubmit="yaCounter44830108.reachGoal('cel10'); return true;">
-							<span style="font-size:24px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:20%;">Узнайте ваше акционное предложение у менеджера</span><strong><span style="font-size:35px; color:yellow;"></span>
-
-								<p style="margin-top:-5px">оставь свое имя и телефон, чтобы получить комплект по специальной цене <span style="font-size:35px;"></span></p>
-								<input type="hidden" name="subject" value="минитрактор">
-								<input class="input-text input-name input-string-form-left" type="text" name="name" placeholder="Имя">
-								<input class="input-text input-phone input-string-form phone-mask" maxlength="18" type="text" name="phone" placeholder="Телефон*" required">
-								<input class="input-text input-email input-string-form input-string-form-3" type="email" name="email" placeholder="Почта">
-								<div class="alert_on" id="phone_bottom_3"></div>
-								<span style="font-size:19px; color:yellow; text-transform:uppercase; font-weight:700; margin-left:5%;"></span><strong><span style="font-size:35px; color:yellow;"></span></strong><br>
-								<div class="alert_on" id="phone_bottom_3"></div>
-
-								<div class="wrap-form-btn btn-position-center2">
-									<input class="form-button form-2-btn" type="submit" name="catalog" value="Получить">
-									<div class="compliance" style="font-size:9px; font-weight:300; margin-bottom:-10%;">
-										<input type="checkbox" checked onclick="document.querySelector('#' + this.closest('form').id + ' [type=submit]').disabled = !this.checked" style="margin-left:-30px"><a href="#openModal3" target="_self" style="color:#383838; text-decoration: underline;">Нажимая кнопку "Получить", вы даете согласие на обработку персональных данных</a></div>
-
-
-								</div>
-								<input type="hidden" name="typsh" value="минитрактор">
-
-						</form>
-
-					</div>
-					<br>
-					<br>
-					<br>
-				</div>
-
 			</div>
 		</div>
 	</div>
